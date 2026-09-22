@@ -1,0 +1,15 @@
+{
+  "weights": { "inMerch": 0.35, "position": 0.25, "breadth": 0.15, "recency": 0.15, "discounted": 0.10, "velocity": 0.20 },
+  "merchCollectionRegex": "best|top|trending|featured|popular|new|most-loved|favou?rites?",
+  "thresholds": {
+    "orphanPct": [5, 15],
+    "soldOutTopN": 8,
+    "soldOutInTopCount": [1, 3],
+    "lowImagePct": [10, 25],
+    "shortDescPct": [10, 25],
+    "coreSizeOutPct": [10, 25],
+    "noCapturePct": [20, 50]
+  },
+  "http": { "rps": 2, "concurrency": 2, "maxRetries": 4, "timeoutMs": 15000, "userAgent": "beacon-scan/0.1 (+https://github.com/ashishkothari/beacon-scan)" },
+  "limits": { "maxProducts": 800, "pdpSample": 20 }
+}

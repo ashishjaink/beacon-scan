@@ -1,0 +1,137 @@
+{
+  "products": [
+    {
+      "id": 6676414398519,
+      "title": "Kolli Berri Estate",
+      "handle": "kolli-berri-estate",
+      "body_html": "<p>This medium-dark roast, nurtured in a completely women-run farm, brews cups with a chocolatey and nutty flavour profile. It hails from the beautiful Kolli Berri Estate, set in Chikmagalur, Karnataka. </p>\n<p>While brewing this one, you’ll notice the unique characteristics of the coffee beans, starting with the aroma of dried fruits, followed by a syrupy mouthfeel in every sip. With medium acidity and medium- high bitterness, it offers a full-bodied profile which is enhanced when brewed as an espresso or using an AeroPress, Moka Pot or a French Press.</p>\n<p><meta charset=\"utf-8\"><strong>Recommended Resting Period:<span> </span></strong><span>12 days</span></p>\n<!---->",
+      "published_at": "2026-09-18T15:34:13+05:30",
+      "created_at": "2022-07-14T15:11:40+05:30",
+      "updated_at": "2026-09-22T17:20:42+05:30",
+      "vendor": "Beans",
+      "product_type": "Single Estate Coffee",
+      "tags": [
+        "acidity-low",
+        "best-seller",
+        "bitterness-medium",
+        "btexpress",
+        "Coffee",
+        "coffeeonly",
+        "CRP",
+        "French Press Grind",
+        "medium-dark-roast",
+        "NEW12",
+        "Roasted Coffee",
+        "seasonal",
+        "subscriptioncoffee",
+        "subscriptioncoffeeformixedbag",
+        "TAX_5"
+      ],
+      "variants": [
+        {
+          "id": 39816698986551,
+          "title": "250g",
+          "option1": "250g",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "700.00",
+          "grams": 250,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 6676414398519,
+          "created_at": "2022-07-14T15:11:40+05:30",
+          "updated_at": "2026-09-22T17:20:42+05:30"
+        },
+        {
+          "id": 39816699019319,
+          "title": "500g",
+          "option1": "500g",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "1300.00",
+          "grams": 500,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 6676414398519,
+          "created_at": "2022-07-14T15:11:40+05:30",
+          "updated_at": "2026-09-22T17:20:42+05:30"
+        },
+        {
+          "id": 39816698921015,
+          "title": "1kg",
+          "option1": "1kg",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "2380.00",
+          "grams": 1000,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 6676414398519,
+          "created_at": "2022-07-14T15:11:40+05:30",
+          "updated_at": "2026-09-22T17:20:42+05:30"
+        }
+      ],
+      "images": [
+        {
+          "id": 31501040320567,
+          "created_at": "2024-05-06T14:42:45+05:30",
+          "position": 1,
+          "updated_at": "2024-05-06T14:42:50+05:30",
+          "product_id": 6676414398519,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0738/1409/files/1-Kolli-Berri-_Front_1.jpg?v=1714986770",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "id": 31501012959287,
+          "created_at": "2024-05-06T14:32:48+05:30",
+          "position": 2,
+          "updated_at": "2024-05-06T14:42:50+05:30",
+          "product_id": 6676414398519,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0738/1409/files/2-Kolli-Berri-_Web.jpg?v=1714986770",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "id": 30956184207415,
+          "created_at": "2024-01-23T15:02:23+05:30",
+          "position": 3,
+          "updated_at": "2024-05-06T14:42:50+05:30",
+          "product_id": 6676414398519,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0738/1409/files/3KolliBerri_Back.jpg?v=1714986770",
+          "width": 770,
+          "height": 1024
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "250g",
+            "500g",
+            "1kg"
+          ]
+        }
+      ]
+    }
+  ]
+}

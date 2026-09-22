@@ -1,0 +1,43 @@
+{
+  "name": "beacon-scan",
+  "version": "0.1.0",
+  "description": "Reads a Shopify store's public storefront JSON and reports a Restock Priority / Demand Leakage insight plus a five-stage shopper-journey friction scorecard.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "beacon": "dist/cli.js"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "beacon.config.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "scan": "tsx src/cli.ts scan",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "p-limit": "^6.1.0",
+    "undici": "^6.19.8",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vitest": "^5.0.1"
+  }
+}

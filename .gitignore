@@ -1,0 +1,7 @@
+node_modules/
+dist/
+out/*
+!out/EXAMPLE
+.cache/
+*.log
+.DS_Store

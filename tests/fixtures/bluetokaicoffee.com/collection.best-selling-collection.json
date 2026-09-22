@@ -1,0 +1,183 @@
+{
+  "products": [
+    {
+      "id": 7155709345847,
+      "title": "COFFEE T-SHIRT Blue (Mokapot)",
+      "handle": "mokapot-printed-blue-coffee-tshirt",
+      "body_html": "<p>Our signature cotton t-shirt is inspired by the mokapot, made as juxtapositions of regional and contemporary art. Available in two colours, this is the perfect way to flaunt your love for coffee and initiate some interesting conversations!</p>\n<ul>\n<li>100% recycled and recyclable </li>\n<li>GSM 180+ </li>\n<li>Double bio-washed</li>\n<li>A versatile fit for everyone</li>\n</ul>",
+      "published_at": "2024-08-23T15:25:29+05:30",
+      "created_at": "2024-08-22T16:18:53+05:30",
+      "updated_at": "2026-09-22T17:20:38+05:30",
+      "vendor": "Others",
+      "product_type": "Accessory",
+      "tags": [
+        "not_express",
+        "TAX_5",
+        "Tee"
+      ],
+      "variants": [
+        {
+          "id": 41222030393399,
+          "title": "Blue / Small",
+          "option1": "Blue",
+          "option2": "Small",
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": false,
+          "price": "899.00",
+          "grams": 200,
+          "compare_at_price": "899.00",
+          "position": 1,
+          "product_id": 7155709345847,
+          "created_at": "2024-08-22T16:18:53+05:30",
+          "updated_at": "2026-09-22T17:20:38+05:30"
+        },
+        {
+          "id": 41222030426167,
+          "title": "Blue / Medium",
+          "option1": "Blue",
+          "option2": "Medium",
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": false,
+          "price": "899.00",
+          "grams": 200,
+          "compare_at_price": "899.00",
+          "position": 2,
+          "product_id": 7155709345847,
+          "created_at": "2024-08-22T16:18:53+05:30",
+          "updated_at": "2026-09-22T17:20:38+05:30"
+        },
+        {
+          "id": 41222030458935,
+          "title": "Blue / Large",
+          "option1": "Blue",
+          "option2": "Large",
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": false,
+          "price": "899.00",
+          "grams": 200,
+          "compare_at_price": "899.00",
+          "position": 3,
+          "product_id": 7155709345847,
+          "created_at": "2024-08-22T16:18:53+05:30",
+          "updated_at": "2026-09-22T17:20:38+05:30"
+        },
+        {
+          "id": 41222030491703,
+          "title": "Blue / Extra Large",
+          "option1": "Blue",
+          "option2": "Extra Large",
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": false,
+          "price": "899.00",
+          "grams": 200,
+          "compare_at_price": "899.00",
+          "position": 4,
+          "product_id": 7155709345847,
+          "created_at": "2024-08-22T16:18:54+05:30",
+          "updated_at": "2026-09-22T17:20:38+05:30"
+        },
+        {
+          "id": 41222039765047,
+          "title": "Blue / Double Extra Large",
+          "option1": "Blue",
+          "option2": "Double Extra Large",
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "899.00",
+          "grams": 200,
+          "compare_at_price": "899.00",
+          "position": 5,
+          "product_id": 7155709345847,
+          "created_at": "2024-08-22T16:24:38+05:30",
+          "updated_at": "2026-09-22T17:20:38+05:30"
+        }
+      ],
+      "images": [
+        {
+          "id": 32105857318967,
+          "created_at": "2024-08-22T16:20:26+05:30",
+          "position": 1,
+          "updated_at": "2024-08-22T16:20:29+05:30",
+          "product_id": 7155709345847,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0738/1409/files/Blue-1.jpg?v=1724323829",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "id": 32105857220663,
+          "created_at": "2024-08-22T16:20:26+05:30",
+          "position": 2,
+          "updated_at": "2024-08-22T16:20:28+05:30",
+          "product_id": 7155709345847,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0738/1409/files/Blue-Back.jpg?v=1724323828",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "id": 32105857155127,
+          "created_at": "2024-08-22T16:20:26+05:30",
+          "position": 3,
+          "updated_at": "2024-08-22T16:20:28+05:30",
+          "product_id": 7155709345847,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0738/1409/files/Blue-2.jpg?v=1724323828",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "id": 32219950121015,
+          "created_at": "2024-09-11T14:56:17+05:30",
+          "position": 4,
+          "updated_at": "2024-09-11T14:56:19+05:30",
+          "product_id": 7155709345847,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0738/1409/files/Size-Chart.png?v=1726046779",
+          "width": 900,
+          "height": 1200
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Blue"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "Small",
+            "Medium",
+            "Large",
+            "Extra Large",
+            "Double Extra Large"
+          ]
+        }
+      ]
+    }
+  ]
+}

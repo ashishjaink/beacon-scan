@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "store": { "host": "bluetokaicoffee.com", "name": "Blue Tokai Coffee Roasters", "currency": "INR" },
+  "generatedAt": "2026-09-22T12:00:00.000Z",
+  "snapshotFetchedAt": "2026-09-22T11:55:00.000Z",
+  "headline": {
+    "productsScanned": 190,
+    "variantsSoldOut": 203,
+    "variantsTotal": 959,
+    "productsLeakingOnMerch": 34,
+    "soldOutPdpsWithoutCapture": 6
+  },
+  "restock": [
+    {
+      "handle": "amruthavarshini-estate",
+      "title": "Amruthavarshini Estate",
+      "url": "https://bluetokaicoffee.com/products/amruthavarshini-estate",
+      "soldOutVariants": 39,
+      "totalVariants": 39,
+      "leakage": 1.0,
+      "soldOutVariantTitles": ["250g / Whole Bean", "250g / Filter Ground", "500g / Whole Bean", "500g / Filter Ground", "1kg / Whole Bean", "1kg / Filter Ground"],
+      "demandProxy": 0.83,
+      "components": { "inMerch": 1, "position": 0.96, "breadth": 0.6, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.871,
+      "medianPrice": 750,
+      "restockPriority": 0.7765,
+      "rank": 1,
+      "reason": "39/39 variants sold out (250g / Whole Bean, 250g / Filter Ground, 500g / Whole Bean); in Bestsellers at position 3; updated 0d ago"
+    },
+    {
+      "handle": "winter-blend-1",
+      "title": "Winter Blend",
+      "url": "https://bluetokaicoffee.com/products/winter-blend-1",
+      "soldOutVariants": 39,
+      "totalVariants": 39,
+      "leakage": 1.0,
+      "soldOutVariantTitles": ["250g / Whole Bean", "250g / Filter Ground", "500g / Whole Bean", "500g / Filter Ground", "1kg / Whole Bean", "1kg / Filter Ground"],
+      "demandProxy": 0.775,
+      "components": { "inMerch": 1, "position": 0.86, "breadth": 0.4, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.871,
+      "medianPrice": 750,
+      "restockPriority": 0.7250,
+      "rank": 2,
+      "reason": "39/39 variants sold out (250g / Whole Bean, 250g / Filter Ground, 500g / Whole Bean); in Bestsellers at position 10; updated 0d ago"
+    },
+    {
+      "handle": "13th-birthday-blend",
+      "title": "13th Birthday Blend",
+      "url": "https://bluetokaicoffee.com/products/13th-birthday-blend",
+      "soldOutVariants": 3,
+      "totalVariants": 3,
+      "leakage": 1.0,
+      "soldOutVariantTitles": ["200g / Whole Bean", "200g / Filter Ground", "200g / Moka Pot"],
+      "demandProxy": 0.72,
+      "components": { "inMerch": 1, "position": 0.64, "breadth": 0.4, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.879,
+      "medianPrice": 800,
+      "restockPriority": 0.6764,
+      "rank": 3,
+      "reason": "3/3 variants sold out (200g / Whole Bean, 200g / Filter Ground, 200g / Moka Pot); in Bestsellers at position 25; updated 0d ago"
+    },
+    {
+      "handle": "araku-viishalakshi-fpc",
+      "title": "Araku - Viishalakshi FPC",
+      "url": "https://bluetokaicoffee.com/products/araku-viishalakshi-fpc",
+      "soldOutVariants": 3,
+      "totalVariants": 3,
+      "leakage": 1.0,
+      "soldOutVariantTitles": ["200g / Whole Bean", "200g / Filter Ground", "200g / Moka Pot"],
+      "demandProxy": 0.655,
+      "components": { "inMerch": 1, "position": 0.5, "breadth": 0.2, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.879,
+      "medianPrice": 800,
+      "restockPriority": 0.6154,
+      "rank": 4,
+      "reason": "3/3 variants sold out (200g / Whole Bean, 200g / Filter Ground, 200g / Moka Pot); in Coffee Beans at position 13; updated 0d ago"
+    },
+    {
+      "handle": "kerehaklu-estate-light-1",
+      "title": "Kerehaklu Estate",
+      "url": "https://bluetokaicoffee.com/products/kerehaklu-estate-light-1",
+      "soldOutVariants": 3,
+      "totalVariants": 3,
+      "leakage": 1.0,
+      "soldOutVariantTitles": ["200g / Whole Bean", "200g / Filter Ground", "200g / Moka Pot"],
+      "demandProxy": 0.63,
+      "components": { "inMerch": 1, "position": 0.4, "breadth": 0.2, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.888,
+      "medianPrice": 850,
+      "restockPriority": 0.5947,
+      "rank": 5,
+      "reason": "3/3 variants sold out (200g / Whole Bean, 200g / Filter Ground, 200g / Moka Pot); in Coffee Beans at position 15; updated 0d ago"
+    },
+    {
+      "handle": "monsoon-malabar-easy-pour-coffee-sachets",
+      "title": "Monsoon Malabar | Medium-Dark Roast - Easy Pour",
+      "url": "https://bluetokaicoffee.com/products/monsoon-malabar-easy-pour-coffee-sachets",
+      "soldOutVariants": 1,
+      "totalVariants": 2,
+      "leakage": 0.5,
+      "soldOutVariantTitles": ["Box of 10 Sachets"],
+      "demandProxy": 0.635,
+      "components": { "inMerch": 1, "position": 0.3, "breadth": 0.4, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.751,
+      "medianPrice": 300,
+      "restockPriority": 0.2780,
+      "rank": 6,
+      "reason": "1/2 variants sold out (Box of 10 Sachets); in New To Coffee at position 2; updated 0d ago"
+    },
+    {
+      "handle": "baarbara-estate-whiskey-barrel",
+      "title": "Baarbara Estate - Whiskey Barrel Aged",
+      "url": "https://bluetokaicoffee.com/products/baarbara-estate-whiskey-barrel",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1.0,
+      "soldOutVariantTitles": ["250g"],
+      "demandProxy": 0.18,
+      "components": { "inMerch": 0, "position": 0, "breadth": 0.2, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.938,
+      "medianPrice": 1250,
+      "restockPriority": 0.1744,
+      "rank": 7,
+      "reason": "1/1 variants sold out (250g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "kerehaklu-estate-blossom-culture",
+      "title": "Kerehaklu Estate - Blossom Culture",
+      "url": "https://bluetokaicoffee.com/products/kerehaklu-estate-blossom-culture",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1.0,
+      "soldOutVariantTitles": ["200g"],
+      "demandProxy": 0.18,
+      "components": { "inMerch": 0, "position": 0, "breadth": 0.2, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.9154,
+      "medianPrice": 1050,
+      "restockPriority": 0.1724,
+      "rank": 8,
+      "reason": "1/1 variants sold out (200g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "riverdale-estate-mosto",
+      "title": "Riverdale Estate - Mosto",
+      "url": "https://bluetokaicoffee.com/products/riverdale-estate-mosto",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1.0,
+      "soldOutVariantTitles": ["250g"],
+      "demandProxy": 0.18,
+      "components": { "inMerch": 0, "position": 0, "breadth": 0.2, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.909,
+      "medianPrice": 1000,
+      "restockPriority": 0.1718,
+      "rank": 9,
+      "reason": "1/1 variants sold out (250g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "raxidi-lobo-estate-pichia-yeast",
+      "title": "Raxidi Lobo Estate - Pichia Yeast",
+      "url": "https://bluetokaicoffee.com/products/raxidi-lobo-estate-pichia-yeast",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1.0,
+      "soldOutVariantTitles": ["200g"],
+      "demandProxy": 0.18,
+      "components": { "inMerch": 0, "position": 0, "breadth": 0.2, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.9022,
+      "medianPrice": 950,
+      "restockPriority": 0.1712,
+      "rank": 10,
+      "reason": "1/1 variants sold out (200g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "raxidi-lobo-estate-anaerobic-naturals",
+      "title": "Raxidi Lobo Estate - Anaerobic Natural",
+      "url": "https://bluetokaicoffee.com/products/raxidi-lobo-estate-anaerobic-naturals",
+      "soldOutVariants": 3,
+      "totalVariants": 3,
+      "leakage": 1.0,
+      "soldOutVariantTitles": ["200g / Whole Bean", "200g / Filter Ground", "200g / Moka Pot"],
+      "demandProxy": 0.18,
+      "components": { "inMerch": 0, "position": 0, "breadth": 0.2, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.895,
+      "medianPrice": 900,
+      "restockPriority": 0.1706,
+      "rank": 11,
+      "reason": "3/3 variants sold out (200g / Whole Bean, 200g / Filter Ground, 200g / Moka Pot); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "excelsa-by-mooleh-manay-estate",
+      "title": "Excelsa by Mooleh Manay Estate",
+      "url": "https://bluetokaicoffee.com/products/excelsa-by-mooleh-manay-estate",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1.0,
+      "soldOutVariantTitles": ["250g"],
+      "demandProxy": 0.18,
+      "components": { "inMerch": 0, "position": 0, "breadth": 0.2, "recency": 1, "discounted": 0, "velocity": 0 },
+      "priceFactor": 0.842,
+      "medianPrice": 600,
+      "restockPriority": 0.1658,
+      "rank": 12,
+      "reason": "1/1 variants sold out (250g); not in a merchandised collection; updated 0d ago"
+    }
+  ],
+  "scorecard": [
+    {
+      "stage": "discovery",
+      "check": "orphan-products",
+      "title": "Products with no collection placement",
+      "severity": "medium",
+      "count": 22,
+      "denominator": 190,
+      "examples": [
+        { "title": "Howdia Estate", "url": "https://bluetokaicoffee.com/products/howdia-estate", "note": "not found in any recorded collection" },
+        { "title": "Riverdale Estate - Gesha Natural", "url": "https://bluetokaicoffee.com/products/riverdale-estate-gesha-natural" }
+      ],
+      "recommendation": "Add these products to at least one collection shoppers actually browse; a product outside every collection can only be found via search or a direct link.",
+      "evidence": "products.json cross-referenced against collections/<handle>/products.json for every recorded collection, excluding `all`/`frontpage`"
+    },
+    {
+      "stage": "discovery",
+      "check": "sold-out-in-top-positions",
+      "title": "Sold-out products in top collection positions",
+      "severity": "medium",
+      "count": 2,
+      "denominator": null,
+      "examples": [
+        { "title": "Amruthavarshini Estate", "url": "https://bluetokaicoffee.com/products/amruthavarshini-estate", "note": "position 3 of 69 in Bestsellers, fully sold out" },
+        { "title": "13th Birthday Blend", "url": "https://bluetokaicoffee.com/products/13th-birthday-blend", "note": "position 6 of 69 in Bestsellers, fully sold out" }
+      ],
+      "recommendation": "Reorder the collection grid so a fully sold-out product isn't the first thing a shopper sees, or restock it before the next campaign send.",
+      "evidence": "collection.<handle>.json position index for products with leakage 1.0, top 8 positions of any merchandised collection"
+    },
+    {
+      "stage": "pdp",
+      "check": "low-image-count",
+      "title": "Product pages with fewer than 2 images",
+      "severity": "low",
+      "count": 14,
+      "denominator": 190,
+      "examples": [
+        { "title": "Howdia Estate", "url": "https://bluetokaicoffee.com/products/howdia-estate", "note": "1 image" }
+      ],
+      "recommendation": "Add a second image (pack shot or brew detail) — single-image PDPs read as unfinished and convert worse.",
+      "evidence": "products.json `images[]` length per product"
+    },
+    {
+      "stage": "pdp",
+      "check": "short-description",
+      "title": "Product pages with a short description",
+      "severity": "medium",
+      "count": 31,
+      "denominator": 190,
+      "examples": [
+        { "title": "Riverdale Estate - Mosto", "url": "https://bluetokaicoffee.com/products/riverdale-estate-mosto", "note": "118 characters" }
+      ],
+      "recommendation": "Add tasting notes, origin and brew guidance — under 200 characters gives a shopper nothing to justify the price.",
+      "evidence": "products.json `body_html` stripped to text, length in characters"
+    },
+    {
+      "stage": "pdp",
+      "check": "colour-variants-without-image",
+      "title": "Colour variants missing their own image",
+      "severity": "none",
+      "count": 0,
+      "denominator": 0,
+      "examples": [],
+      "recommendation": "No action — this catalogue has no colour-option products to check.",
+      "evidence": "no product option named Colour/Color found in products.json"
+    },
+    {
+      "stage": "variant",
+      "check": "core-sizes-sold-out",
+      "title": "Core pack sizes sold out",
+      "severity": "medium",
+      "count": 9,
+      "denominator": 41,
+      "examples": [
+        { "title": "Amruthavarshini Estate", "url": "https://bluetokaicoffee.com/products/amruthavarshini-estate", "note": "core sizes 250g, 500g sold out" },
+        { "title": "Winter Blend", "url": "https://bluetokaicoffee.com/products/winter-blend-1", "note": "core sizes 250g, 500g sold out" }
+      ],
+      "recommendation": "Prioritise restocking the middle pack sizes first — the smallest (trial) and largest (bulk) sizes selling through last is normal; the middle going out isn't.",
+      "evidence": "products.json Size option values, ordered; middle 50% flagged sold out"
+    },
+    {
+      "stage": "intent-capture",
+      "check": "sold-out-without-capture",
+      "title": "Sold-out PDPs with no back-in-stock capture",
+      "severity": "medium",
+      "count": 6,
+      "denominator": 20,
+      "examples": [
+        { "title": "Baarbara Estate - Whiskey Barrel Aged", "url": "https://bluetokaicoffee.com/products/baarbara-estate-whiskey-barrel" },
+        { "title": "Riverdale Estate - Mosto", "url": "https://bluetokaicoffee.com/products/riverdale-estate-mosto" }
+      ],
+      "recommendation": "Turn on a back-in-stock signup on these PDPs — this store already runs a generic capture mechanism on other pages (no `swym` marker found), so intent is being lost only where it's switched off.",
+      "evidence": "PDP HTML sampled for 20 highest-leakage sold-out products; searched for swym/back in stock/notify me/restock/klaviyo-bis/bis markers"
+    },
+    {
+      "stage": "trust",
+      "check": "policies",
+      "title": "Shipping / refund policy verification",
+      "severity": "low",
+      "count": 1,
+      "denominator": 2,
+      "examples": [],
+      "recommendation": "This store's robots.txt disallows `/policies/*` for all bots, so a compliant scanner — and any AI shopping agent or price-comparison tool that honours robots.txt — can't verify your shipping/refund terms programmatically. Consider allowing those two specific paths if you want that trust signal visible to automated buyers.",
+      "evidence": "robots.txt Disallow: /policies/ and /*/policies/ for User-agent: *; both paths return 200 when fetched directly, but were not fetched by this scan"
+    }
+  ],
+  "methodology": {
+    "weights": { "inMerch": 0.35, "position": 0.25, "breadth": 0.15, "recency": 0.15, "discounted": 0.10, "velocity": 0.20 },
+    "limits": [
+      "scores are indices, not currency: public storefront data carries no order-volume or revenue signal",
+      "trust/policies check skipped for shipping and refund pages: robots.txt disallows /policies/* for bots on this store",
+      "collection membership recorded for 20/225 collections in this fixture set; rest treated as empty (fixture-recording bound, not a live-scan limitation)",
+      "A1: public storefront JSON reflects live availability; can lag minutes behind actual stock",
+      "A2: collection order approximates merchandising intent; bestseller-style handles approximate demand",
+      "A3: a sold-out variant on a merchandised product is intent lost; we cannot see how much",
+      "A4: detection of back-in-stock capture by HTML markers is approximate (themes vary)",
+      "A5: assumes the reviewer runs on macOS/Linux with Node >=20"
+    ]
+  }
+}

@@ -1,0 +1,2339 @@
+{
+  "collections": [
+    {
+      "id": 275195723831,
+      "title": "12% GST",
+      "handle": "12-gst",
+      "description": "",
+      "published_at": "2024-11-20T11:30:21+05:30",
+      "updated_at": "2026-09-16T18:27:45+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 275195756599,
+      "title": "18% GST",
+      "handle": "18-gst",
+      "description": "",
+      "published_at": "2024-11-20T11:37:21+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 58
+    },
+    {
+      "id": 275195625527,
+      "title": "5% GST",
+      "handle": "5-gst",
+      "description": "",
+      "published_at": "2024-11-20T11:28:26+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 184
+    },
+    {
+      "id": 261514887223,
+      "title": "Abandoned cart products",
+      "handle": "abandoned-cart-products",
+      "description": "",
+      "published_at": "2021-07-13T10:55:20+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 281
+    },
+    {
+      "id": 267386847287,
+      "title": "Accessories",
+      "handle": "brewing-accessories",
+      "description": "",
+      "published_at": "2023-11-24T16:36:56+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 264053391415,
+      "title": "Acidity High",
+      "handle": "acidity-high",
+      "description": "",
+      "published_at": "2022-08-29T18:37:27+05:30",
+      "updated_at": "2026-06-04T01:18:05+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 264053293111,
+      "title": "Acidity Low",
+      "handle": "acidity-low",
+      "description": "",
+      "published_at": "2022-08-29T18:37:07+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 11
+    },
+    {
+      "id": 264053325879,
+      "title": "Acidity Medium",
+      "handle": "acidity-medium",
+      "description": "",
+      "published_at": "2022-08-29T18:37:34+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 31
+    },
+    {
+      "id": 264053358647,
+      "title": "Acidity Medium High",
+      "handle": "acidity-medium-high",
+      "description": "",
+      "published_at": "2022-08-29T18:37:56+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 10
+    },
+    {
+      "id": 261526683703,
+      "title": "Aeropress Filter Paper",
+      "handle": "aeropress-filter-paper",
+      "description": "",
+      "published_at": "2021-07-15T16:26:15+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": {
+        "id": 1606255706167,
+        "created_at": "2021-07-15T17:54:35+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/DSC05475.jpg?v=1626351876",
+        "alt": null
+      },
+      "products_count": 11
+    },
+    {
+      "id": 264052736055,
+      "title": "Aeropress Grind Coffees",
+      "handle": "aeropress-grind-coffees",
+      "description": "",
+      "published_at": "2022-08-29T18:40:28+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 61
+    },
+    {
+      "id": 35133620279,
+      "title": "Aeropress Maker - Coffee Collection",
+      "handle": "aeropress-maker-coffee-collection",
+      "description": "",
+      "published_at": "2018-03-29T12:39:19+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 29167356,
+      "title": "All",
+      "handle": "all",
+      "description": "",
+      "published_at": "2015-02-02T20:37:00+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 232
+    },
+    {
+      "id": 275976814647,
+      "title": "All Products",
+      "handle": "all-products-1",
+      "description": "",
+      "published_at": "2024-12-31T13:57:09+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 1448
+    },
+    {
+      "id": 266065838135,
+      "title": "All Products Collection",
+      "handle": "all-products-collection",
+      "description": "",
+      "published_at": "2023-06-13T16:46:41+05:30",
+      "updated_at": "2026-05-27T04:16:02+05:30",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 166537822263,
+      "title": "All Products MANUAL FEED",
+      "handle": "all-products",
+      "description": "",
+      "published_at": "2020-12-24T12:33:07+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 191
+    },
+    {
+      "id": 265538240567,
+      "title": "All Roasted Coffee NAV",
+      "handle": "all-roasted-coffee-nav",
+      "description": "",
+      "published_at": "2023-02-09T12:26:22+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 131
+    },
+    {
+      "id": 167016464439,
+      "title": "All Year Round Love Bundles",
+      "handle": "all-year-round-love-bundles",
+      "description": "<p><span style=\"font-weight: 400;\">One thing 2020 taught us is that we need to start normalising our love for self care. We need to move it from our Guilty Pleasures bucket to being part of our daily routine. So, we're taking time this Valentines month (</span><span style=\"font-weight: 400;\">a day just isn’t enough anymore</span><span style=\"font-weight: 400;\">)</span><span style=\"font-weight: 400;\"> to share some coffee love with a range of feel good bundles that you and your loved ones can start incorporating into your everyday lives.  </span></p>\n<p data-mce-fragment=\"1\">Our handpicked coffee bundles serve as the perfect escape for whenever you need it; our hot chocolates and Easy Pours hit just the right notes for all your work breaks; and our collection of pebble soaps and scrubs are exactly the TLC you need when you’re craving some luxury spa love.<br></p>",
+      "published_at": "2025-01-29T15:56:01+05:30",
+      "updated_at": "2026-09-16T18:27:41+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 274184863799,
+      "title": "Aluminium Capsule",
+      "handle": "aluminium-coffee-capsule",
+      "description": "<h2 style=\"font-size: 18px;\"><strong>Enjoy Specialty Coffee with Our Convenient Coffee Capsules</strong></h2>\n<p>Elevate your daily coffee routine with our coffee capsules, designed for quick, mess-free brewing that brings the taste of India’s finest specialty coffees to your cup. Crafted from high-quality aluminum and nitrogen-flushed to lock in freshness and flavor, these capsules offer the perfect blend of convenience and exceptional quality.</p>\n<h3 style=\"font-size: 18px;\"><strong>Brewing Café-Style Coffee at Home Has Never Been Easier</strong></h3>\n<p>With our coffee capsules, you can brew café-quality coffee at home in just seconds. Simply insert a capsule into your Nespresso®* or Nespresso®*<span style=\"color: rgb(0, 0, 0);\">-compatible machine</span>, press the button, and enjoy a rich, full-bodied espresso. Each capsule delivers the perfect shot of espresso, which can be used as the base for your favourite drinks—whether it’s a bold Americano, a creamy latte, or a frothy cappuccino.</p>\n<h3 style=\"font-size: 18px;\"><strong>A Delicious Selection of Coffee Capsules in Four Varieties</strong></h3>\n<p>Choose from four delicious variants of our coffee pods, featuring diverse roast profiles from medium to dark, including popular options like <a href=\"https://bluetokaicoffee.com/collections/aluminium-capsule/products/attikan-estate-aluminium-coffee-capsules\" title=\"Attikan Estate coffee capsules\" rel=\"noopener\" target=\"_blank\"><strong><span style=\"color: rgb(18, 177, 197);\">Attikan Estate</span></strong></a>. These capsules are available in packs of 16 or 36, making them ideal for coffee enthusiasts brewing solo or sharing with friends.</p>\n<h3 style=\"font-size: 18px;\"><strong>Hassle-Free, High-Quality Coffee Anytime, Anywhere</strong></h3>\n<p>Upgrade your coffee experience with our coffee capsules and enjoy the taste of freshly brewed specialty coffee wherever you are—effortlessly.</p>\n<p><strong>Disclaimer:-</strong><span> Blue Tokai Coffee Roasters is not affiliated with, endorsed, or sponsored by Nespresso®. Nespresso® is a registered trademark of Societe des Produits Nestlé S.A.</span></p>",
+      "published_at": "2024-10-01T15:40:51+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 272200106039,
+      "title": "Automated Brewing",
+      "handle": "automated-brewing",
+      "description": "",
+      "published_at": "2024-07-01T13:12:51+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 32805828,
+      "title": "Automatic Burr Grinders",
+      "handle": "automatic-burr-grinders",
+      "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n<p><strong><em></em></strong>Getting a fresh and consistent grind is one of the most important, if not the most important, ways to improve your coffee experience, so we’re very happy to be working with Baratza to offer automatic 230V burr grinders. </p>",
+      "published_at": "2015-04-29T23:15:00+05:30",
+      "updated_at": "2026-09-16T18:27:40+05:30",
+      "image": null,
+      "products_count": 8
+    },
+    {
+      "id": 261081890871,
+      "title": "Automatic Coffee Grinders",
+      "handle": "automatic-coffee-grinders",
+      "description": "",
+      "published_at": "2021-05-17T17:07:06+05:30",
+      "updated_at": "2026-09-16T18:27:41+05:30",
+      "image": null,
+      "products_count": 9
+    },
+    {
+      "id": 267385864247,
+      "title": "Automatic Espresso",
+      "handle": "automatic-espresso",
+      "description": "",
+      "published_at": "2023-11-24T15:12:28+05:30",
+      "updated_at": "2026-05-27T04:16:05+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 266334928951,
+      "title": "Balanced",
+      "handle": "balanced",
+      "description": "",
+      "published_at": "2023-08-24T13:31:42+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 7
+    },
+    {
+      "id": 266309009463,
+      "title": "Balanced coffee lovers",
+      "handle": "balanced-coffee-lovers",
+      "description": "",
+      "published_at": "2023-08-16T10:33:06+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 266440867895,
+      "title": "Beginners' Coffee Pack",
+      "handle": "beginners-coffee-pack",
+      "description": "",
+      "published_at": "2025-01-29T16:15:19+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 13
+    },
+    {
+      "id": 272636969015,
+      "title": "Best Coffee Beans in India",
+      "handle": "coffee-beans",
+      "description": "<h2 style=\"font-size: 18px;\"><strong>Buy Freshly Roasted Coffee Beans Online with Blue Tokai</strong></h2>\n<p>For over 11 years, Blue Tokai has been your go-to destination to buy <strong>coffee beans</strong> online, offering India’s finest <strong>freshly roasted coffee beans</strong> and <strong>ground coffee</strong>. Our commitment to quality and craftsmanship has made us a favorite for coffee lovers across the country.</p>\n<h3 style=\"font-size: 18px;\"><strong>Sourcing the Best Coffee Beans from India’s Top Farms</strong></h3>\n<p>At Blue Tokai, we partner with over <strong>80 of India’s top coffee farms</strong> to bring you freshly roasted coffee beans that are of the highest quality. By working closely with these farmers, we ensure that every cup you enjoy is a reflection of India's diverse coffee-growing regions.</p>\n<h3 style=\"font-size: 18px;\"><strong>Expert Roasting and Quality Control for Consistent Flavor</strong></h3>\n<p>We use state-of-the-art Probat and IMF machines to craft our <strong>roasted coffee</strong>, following strict industry standards. Every batch is carefully evaluated by certified <a href=\"https://www.coffeeinstitute.org/certification/people/q-graders\" target=\"_blank\" title=\"Q-Graders\" rel=\"noopener\"><span style=\"color: rgb(128, 255, 0);\"><strong><span style=\"color: rgb(18, 177, 197);\">Q-graders</span></strong> </span></a>to guarantee consistent flavor and exceptional quality. Whether you're a fan of light roast coffee with delicate notes or bold, rich dark roast coffee, we have something for every taste.</p>\n<h3 style=\"font-size: 18px;\"><strong>Our Coffee Offerings: Single Origin, Blends, and More</strong></h3>\n<p>Explore our range of light roast coffee for a delicate and complex cup, or enjoy the deep, rich flavour of our dark roast coffee. We offer both <strong>single-origin coffees</strong> and expertly crafted blends to suit all coffee preferences. Our beans are available as <strong>whole beans</strong> or pre-ground to fit your <a href=\"https://bluetokaicoffee.com/collections/brewing-equipment-collection\" target=\"_blank\" title=\"Brewing Equipments\" rel=\"noopener\"><strong><span style=\"color: rgb(18, 177, 197);\">Brewing equipment</span></strong></a>.</p>\n<h3 style=\"font-size: 18px;\"><strong>Easy Ordering: Buy Coffee Beans Online and Get Them Delivered</strong></h3>\n<p>Ordering is simple—<strong>buy coffee beans online </strong>through our website, the Blue Tokai app, or platforms like Swiggy and Zomato. You can also visit our cafés for a fresh batch. And if you don’t have coffee gear at home, don’t worry! Our <a href=\"https://bluetokaicoffee.com/collections/starter-packs/products/vienna-roast-250g-channi\" target=\"_blank\" title=\"Channi coffee\" rel=\"noopener\"><strong><span style=\"color: rgb(18, 177, 197);\">Channi coffee</span></strong></a> lets you brew like a pro with just a tea strainer.</p>\n<h3 style=\"font-size: 18px;\"><strong>Experience the Best Coffee Delivered to Your Doorstep</strong></h3>\n<p>The coffee we roast is the coffee we love to drink. <strong>Buy coffee beans </strong>from Blue Tokai today and experience the joy of freshly roasted coffee beans delivered straight to your doorstep.</p>",
+      "published_at": "2024-07-23T16:32:49+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 41
+    },
+    {
+      "id": 264024981559,
+      "title": "Best Sellers NAV",
+      "handle": "best-sellers-nav",
+      "description": "",
+      "published_at": "2022-08-26T15:34:20+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 16
+    },
+    {
+      "id": 262055264311,
+      "title": "Best selling products",
+      "handle": "best-selling-collection",
+      "description": "",
+      "published_at": "2022-08-11T11:56:37+05:30",
+      "updated_at": "2026-09-22T17:03:26+05:30",
+      "image": null,
+      "products_count": 85
+    },
+    {
+      "id": 268274925623,
+      "title": "Bestsellers",
+      "handle": "bestsellers",
+      "description": "",
+      "published_at": "2024-01-11T15:10:38+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 93
+    },
+    {
+      "id": 264053555255,
+      "title": "Bitterness High",
+      "handle": "bitterness-high",
+      "description": "",
+      "published_at": "2022-08-29T12:55:11+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 264053456951,
+      "title": "Bitterness Low",
+      "handle": "bitterness-low",
+      "description": "",
+      "published_at": "2022-08-29T18:36:06+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 12
+    },
+    {
+      "id": 264053489719,
+      "title": "Bitterness Medium",
+      "handle": "bitterness-medium",
+      "description": "",
+      "published_at": "2022-08-29T18:36:13+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 21
+    },
+    {
+      "id": 264053522487,
+      "title": "Bitterness Medium High",
+      "handle": "bitterness-medium-high",
+      "description": "",
+      "published_at": "2022-08-29T18:35:58+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 14
+    },
+    {
+      "id": 265234055223,
+      "title": "Black Coffee Recommendations",
+      "handle": "black-coffee-recommendations",
+      "description": "",
+      "published_at": "2022-12-09T17:05:43+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 143
+    },
+    {
+      "id": 167109066807,
+      "title": "Blue Tokai Picks",
+      "handle": "blue-tokai-picks",
+      "description": "<span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">Making the most flavourful cup is all about picking the coffee that best suits your palate and pairing it with equipment that brews it just right for you. If like us, you also have a preferred brewing method, here’s the cheatsheet of coffee recommendations that’ll make you fall in love with brewing at home!</span>",
+      "published_at": "2021-02-14T16:59:08+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 13
+    },
+    {
+      "id": 261127110711,
+      "title": "Blue Tokai Taster’s Club",
+      "handle": "tasters-club",
+      "description": "<h6 data-mce-fragment=\"1\"><b>Let our roasters guide you through the world of specialty coffee!</b></h6>\n<p>Our Blue Tokai Taster’s Club is an example of interactive exploration in a box. It’s an initiative to engage, educate, and create a community around coffee while understanding specialty coffee through unique tasting exercises developed by our roasting team. Our roasters will guide you through the different facets of specialty coffee and will share the decisions they had to make that influenced the flavour of the coffee that you’ll be tasting with each box.<br><br>You will receive a box themed around a different coffee topic each month. We’ll be covering everything from the basics of roasting to understanding different processing methods, and how all of this impacts the final flavours in your cup. The box and modules will be curated by members of the roasting team at Blue Tokai every month and will contain 3 different coffees for tasting, a handbook that delves deep into the theme for that month, and an exercise to try at home.<br><br>Each Taster’s Club member will also be invited to join an exclusive coffee community on a Discord server. The server will be a shared platform for continued engagement for the duration of the episode where members will be encouraged to share their results and experiences from the exercise, ask questions to our roasters. Each episode will also be supported with a video by our roaster who will guide you through the episode’s topic and exercise.<br></p>",
+      "published_at": "2022-03-14T12:18:14+05:30",
+      "updated_at": "2026-09-16T18:27:41+05:30",
+      "image": {
+        "id": 1604462936119,
+        "created_at": "2021-05-25T15:40:48+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/Landing_Banner_6e456e37-7809-4103-9f26-065c6608a66d.jpg?v=1623658629",
+        "alt": null
+      },
+      "products_count": 3
+    },
+    {
+      "id": 266334961719,
+      "title": "Bold and Bitter",
+      "handle": "bold-and-bitter",
+      "description": "",
+      "published_at": "2023-08-24T13:33:55+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 266338631735,
+      "title": "Brewing Equipment Collection",
+      "handle": "brewing-equipment-collection",
+      "description": "",
+      "published_at": "2023-08-25T11:50:01+05:30",
+      "updated_at": "2026-05-27T04:16:04+05:30",
+      "image": null,
+      "products_count": 1
+    },
+    {
+      "id": 270427324471,
+      "title": "BT Heart",
+      "handle": "bt-heart",
+      "description": "",
+      "published_at": "2024-04-10T11:41:26+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 278711337015,
+      "title": "BT Hearts",
+      "handle": "bt-hearts",
+      "description": "",
+      "published_at": "2025-04-24T14:53:42+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 9
+    },
+    {
+      "id": 261095489591,
+      "title": "BTC X SWA Natural Artisanal Syrups",
+      "handle": "btc-x-swa-natural-artisanal-syrups",
+      "description": "<p><span style=\"font-weight: 400;\">     Made using coffee and cascara from the best farms in India, picked and roasted by our passionate team of roasters, these syrups have been produced in small batches by SWA's all women team.</span></p>\n<p><br>      Made using local produce, you can use these syrups as the ideal flavour add on for mocktails and cocktails or as a simple drizzle to spruce up pancakes, ice creams and cakes!</p>\n<p><br>       What we also love about these  syrups is that they have no added preservatives, colours, or artificial flavours. <br></p>",
+      "published_at": "2021-05-19T14:20:34+05:30",
+      "updated_at": "2026-09-16T18:27:41+05:30",
+      "image": {
+        "id": 1604281598007,
+        "created_at": "2021-05-19T15:15:30+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/SWA_banner.jpg?v=1621417530",
+        "alt": null
+      },
+      "products_count": 4
+    },
+    {
+      "id": 283729297463,
+      "title": "BTC20",
+      "handle": "btc20",
+      "description": "",
+      "published_at": "2026-03-12T11:33:29+05:30",
+      "updated_at": "2026-05-27T04:16:09+05:30",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 269223526455,
+      "title": "Cart Recommendation",
+      "handle": "cart-recommendation",
+      "description": "",
+      "published_at": "2024-02-28T15:31:06+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 8
+    },
+    {
+      "id": 279896391735,
+      "title": "Celebratory Gifting",
+      "handle": "celebratory-gifting",
+      "description": "",
+      "published_at": "2025-06-20T11:25:17+05:30",
+      "updated_at": "2026-08-13T11:48:17+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 265285369911,
+      "title": "Central Washing Station",
+      "handle": "central-washing-station",
+      "description": "",
+      "published_at": "2022-12-19T18:42:52+05:30",
+      "updated_at": "2026-05-27T04:16:01+05:30",
+      "image": null,
+      "products_count": 8
+    },
+    {
+      "id": 264053096503,
+      "title": "Channi",
+      "handle": "channi",
+      "description": "",
+      "published_at": "2022-08-29T18:44:07+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 35
+    },
+    {
+      "id": 1774747656,
+      "title": "Channi Coffee",
+      "handle": "new-to-coffee",
+      "description": "<h6><strong></strong></h6>\n<p>Instant coffee is made by freeze drying pre-brewed filter coffee to make it soluble in water and is not freshly roasted. The packaging process gives it a longer shelf-life so it can be stored in supermarkets for longer. While convenient to prepare, instant coffee is not fresh and lacks the flavour and unique characteristics that you can taste in brewed coffee. Channi coffee is just as easy to prepare and is ready in just 4 minutes! <br></p>\n<p> </p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/m2O5MqXD4n0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe><br></p>",
+      "published_at": "2018-01-18T08:07:57+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": {
+        "id": 9964978184,
+        "created_at": "2018-02-05T17:25:42+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/60A6119_test_a5f6bd32-2738-4a25-81ce-69b2c367f7cd.jpg?v=1517831742",
+        "alt": ""
+      },
+      "products_count": 6
+    },
+    {
+      "id": 261176459319,
+      "title": "Channi Starter Kits",
+      "handle": "channi-starter-kits",
+      "description": "<meta charset=\"UTF-8\">\n<p data-mce-fragment=\"1\">Ideal for those who've always wanted to brew a cup of coffee but didn't know where to start from. Choose between the different roast profiles to match your taste preferences and we'll ensure that you have everything to begin your coffee journey with!</p>\n<p data-mce-fragment=\"1\">Each kit comes with three 75 gms coffee pouches and a Channi to get you started. It also comes with a detailed guide on how to brew your coffee - including the temperature of the water, ratio and brew time.</p>",
+      "published_at": "2021-05-31T22:02:42+05:30",
+      "updated_at": "2026-09-16T18:27:41+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 266335027255,
+      "title": "Chocolatey and Nutty",
+      "handle": "chocolatey-nutty",
+      "description": "",
+      "published_at": "2023-08-24T13:37:03+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 11
+    },
+    {
+      "id": 266290659383,
+      "title": "Chocolatey Coffee Lovers",
+      "handle": "chocolatey-coffee-lovers",
+      "description": "",
+      "published_at": "2023-08-14T18:04:18+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 10
+    },
+    {
+      "id": 265225338935,
+      "title": "Christmas Contest",
+      "handle": "christmascontest",
+      "description": "",
+      "published_at": "2022-12-08T16:39:33+05:30",
+      "updated_at": "2026-05-27T04:16:01+05:30",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 265628254263,
+      "title": "Coffee and Coffee Products",
+      "handle": "coffee-and-coffee-products",
+      "description": "",
+      "published_at": "2023-02-23T13:17:15+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 223
+    },
+    {
+      "id": 264052899895,
+      "title": "Coffee Filter",
+      "handle": "coffee-filter",
+      "description": "",
+      "published_at": "2022-08-29T18:41:43+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 45
+    },
+    {
+      "id": 261081923639,
+      "title": "Coffee Grinders",
+      "handle": "coffee-grinders",
+      "description": "<span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">Elevate your brewing experience with one of our carefully selected high quality grinders from Hario, Baratza, and Comandante for an even grind. From manual coffee grinders to automatic ones, our range has something for everyone.</span>",
+      "published_at": "2021-05-17T17:07:37+05:30",
+      "updated_at": "2026-09-16T18:27:41+05:30",
+      "image": {
+        "id": 1604522606647,
+        "created_at": "2021-05-27T12:49:06+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/New_collection_2_May21.jpg?v=1622099946",
+        "alt": null
+      },
+      "products_count": 22
+    },
+    {
+      "id": 273944379447,
+      "title": "Coffee Only",
+      "handle": "coffee-only",
+      "description": "",
+      "published_at": "2024-09-19T16:44:27+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 61
+    },
+    {
+      "id": 274064932919,
+      "title": "Coffee only without small lots",
+      "handle": "coffee-only-without-small-lots",
+      "description": "",
+      "published_at": "2024-09-25T09:48:37+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 179
+    },
+    {
+      "id": 261526978615,
+      "title": "Cold Brew",
+      "handle": "cold-brew",
+      "description": "",
+      "published_at": "2025-11-03T14:43:20+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 15
+    },
+    {
+      "id": 166340034615,
+      "title": "Cold Brew Bags",
+      "handle": "cold-brew-coffee-bags",
+      "description": "<p>Want to brew smooth, refreshing cups of coffee without special equipment? Our <strong>cold brew bags</strong> have you covered. With a selection that caters to diverse palates, you can choose between easy-to-craft brews that are rich and smooth, fruity and refreshing, or juicy and sweet.</p>\n<p>The best part? Crafting cold brew with our <strong>cold brew bags</strong> is simple and straightforward. Just steep them for 14-18 hours, either in your fridge or at room temperature. And voila! You'll wake up to great-tasting cold brew that you can savour all day. Simply pour into glass, add ice as desired, and enjoy! You can also steep longer for a more intense brew.</p>\n<p>Our <strong>cold brew bags</strong> also go great with refreshing recipes. For instance, you can mix cold brew with sparkling tonic water and garnish with a lemon wedge... and there you have it, a delicious mocktail! Stir in a dash of milk, add chocolate syrup, and a cafè mocha is ready. Blend in a generous serving of condensed milk to enjoy Vietnamese-style coffee. The possibilities are endless!</p>\n<p>Each <strong>cold brew bag</strong> is nitrogen-flushed to retain freshness and flavour. So, you can even take some along on your travels, and craft delicious cold brew while on the go. The coffee used in our cold brew bags is the same as what you get in our retail pouches, and each bag can be stored for up to 6 months from the date of packaging.</p>\n<p>Available in boxes of five, our <strong>cold brew bags </strong>are available for purchase online on our website, through Swiggy and Zomato, on the Blue Tokai app, and in our cafés. Each bag brews 3 glasses of coffee.</p>",
+      "published_at": "2021-10-10T09:36:21+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 284648308791,
+      "title": "Cold Brew Blends",
+      "handle": "cold-brew-blends",
+      "description": "",
+      "published_at": "2026-05-13T11:33:30+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 266309402679,
+      "title": "Cold Brew Can Gpay",
+      "handle": "cold-brew-can-gpay",
+      "description": "",
+      "published_at": "2023-08-16T12:14:07+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": {
+        "id": 1616351723575,
+        "created_at": "2023-08-17T11:12:22+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/Picture1.png?v=1692250943",
+        "alt": null
+      },
+      "products_count": 9
+    },
+    {
+      "id": 262355157047,
+      "title": "Cold Brew Coffee Cans",
+      "handle": "cold-brew-cans",
+      "description": "<p>In line with our mission of making great-tasting Indian <strong>specialty coffee</strong> more accessible, our range of <strong>Cold Brew Can</strong> bring you expertly crafted specialty brews in a convenient, <strong>ready-to-drink </strong>form. Each<strong> coffee can</strong> we craft uses 100% Arabica coffee, sourced directly from some of India's best farms. The coffee we source is later roasted with precision for a unique flavour.  </p>\n<p>Pairing perfectly with your everyday, each <b>Blue Tokai coffee</b> can delivers deliciousness, whether you're on your way to work, enjoying a picnic with friends, out in the outdoors, or simply need some cold brew to make a coffee cocktail at home. </p>\n<p>With several flavours, from our<strong> classic bold cold brew</strong> to the zesty, refreshing <strong><a style=\"color: #12b1c5;\" href=\"https://bluetokaicoffee.com/collections/cold-brew-coffee-cans/products/orange-mint\" data-mce-style=\"color: #12b1c5;\" data-mce-href=\"https://bluetokaicoffee.com/collections/cold-brew-coffee-cans/products/orange-mint\" target=\"_blank\">orange mint cold brew</a></strong>, there's enough choice to delight a diverse selection of palates and preferences. The newest addition to this range, our milky coffee cans bring don't just bring back the cold coffee you remember, but make it better. So, whether you prefer your cold brew black, or enjoy a touch of milk, there's a favourite in our selection, waiting to be found.  </p>\n<p><strong>Coffee Can</strong> is available on our website, through Swiggy and Zomato, on our app, and also in our cafés. Each coffee can is 250 ml, and you can grab the flavour of your choice in either a pack of two or six. And if you want to experience a taste of what the entire range has to offer, make sure to give our assorted six-pack a try.</p>",
+      "published_at": "2021-12-07T11:47:33+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 12
+    },
+    {
+      "id": 35135127607,
+      "title": "Cold Brew Starter - Coffee Collection",
+      "handle": "cold-brew-starter-coffee-collection",
+      "description": "",
+      "published_at": "2018-03-29T13:00:33+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 266359144503,
+      "title": "COLD COFFEE CANS",
+      "handle": "coffee-cans",
+      "description": "<p>In line with our mission of making great-tasting Indian <strong>specialty coffee</strong> more accessible, our range of <strong>Coffee Cans </strong>bring you expertly crafted specialty brews in a convenient, <strong>ready-to-drink </strong>form. Each<strong> coffee can</strong> we craft uses 100% Arabica coffee, sourced directly from some of India's best farms. The coffee we source is later roasted with precision for a unique flavour.  </p>\n<p>Pairing perfectly with your everyday, each <b>Blue Tokai coffee</b> can delivers deliciousness, whether you're on your way to work, enjoying a picnic with friends, out in the outdoors, or simply need some cold brew to make a coffee cocktail at home. </p>\n<p>With several flavours, from our <strong>classic bold cold brew</strong> to the zesty, refreshing <strong><a style=\"color: #12b1c5;\" href=\"https://bluetokaicoffee.com/collections/cold-brew-coffee-cans/products/orange-mint\" data-mce-style=\"color: #12b1c5;\" data-mce-href=\"https://bluetokaicoffee.com/collections/cold-brew-coffee-cans/products/orange-mint\" target=\"_blank\">orange mint cold brew</a></strong>, there's enough choice to delight a diverse selection of palates and preferences. The newest addition to this range, our milky coffee cans bring don't just bring back the cold coffee you remember, but make it better. So, whether you prefer your cold brew black, or enjoy a touch of milk, there's a favourite in our selection, waiting to be found.  </p>\n<p><strong>Coffee Can</strong> is available on our website, through Swiggy and Zomato, on our app, and also in our cafés. Each can is 250 ml, and you can grab the flavour of your choice in either a pack of two or six. And if you want to experience a taste of what the entire range has to offer, make sure to give our assorted six-pack a try.</p>\n<!---->",
+      "published_at": "2023-08-31T14:49:08+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 1
+    },
+    {
+      "id": 264024916023,
+      "title": "Combos",
+      "handle": "combos",
+      "description": "We've curated combos of some of our best coffees for you. Check out these combos and stock up on your coffee supply, all while saving 10% on your purchase!",
+      "published_at": "2022-08-29T16:03:22+05:30",
+      "updated_at": "2026-09-16T18:27:42+05:30",
+      "image": {
+        "id": 1615196815415,
+        "created_at": "2022-08-26T15:18:15+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/CollectionPageBanner-01.jpg?v=1661507296",
+        "alt": null
+      },
+      "products_count": 1
+    },
+    {
+      "id": 266289872951,
+      "title": "Complex Black Coffee Brewer",
+      "handle": "complex-black-coffee-brewer",
+      "description": "",
+      "published_at": "2023-08-14T13:41:00+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 10
+    },
+    {
+      "id": 273196810295,
+      "title": "cookies",
+      "handle": "cookies",
+      "description": "<div class=\"OutlineElement Ltr SCXW23864322 BCX0\">\n<p data-pm-slice=\"0 0 []\">In life's big and small moments, it’s often the little things that make the biggest impact—like a <strong>pack of cookies</strong>. Packed with flavour and nutrition, our cookies are a reminder that joy can be found in simplicity. Savour the handcrafted goodness in every bite from our assorted range.</p>\n<p><a href=\"https://bluetokaicoffee.com/collections/diwali-pantry/products/chocolate-chip-cookies\" target=\"_blank\" rel=\"noopener\"><strong>Chocolate Chip Cookies: </strong></a>Savour the wholesome goodness of our chocolate chip cookies, made with a blend of nutrient-rich amaranth and whole wheat flour. Each treat is crafted with 100% butter, delivering a perfectly chewy and crunchy experience that’s satisfying. Rich in fibre with the goodness of amaranth and whole wheat flour<br></p>\n<ul>\n<li>Chewy, crunchy and perfect for sharing</li>\n<li>Crafted with 100% butter</li>\n<li>Contains no refined flour</li>\n<li>Each box contains 10 cookies</li>\n</ul>\n<p><a href=\"https://bluetokaicoffee.com/collections/diwali-pantry/products/coconut-wheat-cookies\" target=\"_blank\" rel=\"noopener\"><strong>Wheat Bran Coconut Cookies</strong>:</a> Indulge in our treats packed with rich flavour and loaded with fiber. Naturally sweetened with jaggery, each bite offers a wholesome and satisfying experience that’s as delicious as it is nutritious.</p>\n<ul>\n<li>Naturally sweetened with jaggery</li>\n<li>Crafted with 100% butter</li>\n<li>Contains no refined flour</li>\n<li>Packed with flavour and loaded with fibre</li>\n<li>Each box contains 10 cookies</li>\n</ul>\n<p><a href=\"https://bluetokaicoffee.com/collections/diwali-pantry/products/multi-seed-millet-cookies\" target=\"_blank\" rel=\"noopener\"><strong>Multi-Seed Millet Cookies:</strong> </a>Savour our guilt-free cookies, packed with a crunchy blend of nutritious seeds for a wholesome, satisfying treat. Enjoy the perfect balance of health and indulgence in every bite.</p>\n<ul>\n<li>Packed with a crunchy, wholesome blend of assorted seeds</li>\n<li>Perfect for sharing</li>\n<li>Contains no refined flour and sugar</li>\n<li>Guilt-free cookies, rich in fibre</li>\n<li>Each box contains 10 cookies</li>\n</ul>\n<p><a href=\"https://bluetokaicoffee.com/collections/diwali-pantry/products/oatmeal-cranberry-cookies\" target=\"_blank\" rel=\"noopener\"><strong>Oatmeal and Cranberry Cookies:</strong></a> Indulge in the delightful blend of sweet dried cranberries and wholesome oats, baked into cookies that are both chewy and crispy. Made with 100% butter, these treats offer a rich, buttery flavour that complements their soft and satisfying texture. Enjoy the perfect balance of sweetness and crunch in every bite.</p>\n<ul>\n<li>Rich in fibre, with the sweetness of dried cranberries and wholesome oats</li>\n<li>Chewy, soft, crispy and perfect for sharing</li>\n<li>Crafted with 100% butter</li>\n<li>Contains no refined flour and sugar</li>\n<li>Each box contains 10 cookies</li>\n</ul>\n<p>Make your own pack of 2/4 by picking your favourites from them.</p>\n</div>",
+      "published_at": "2024-08-16T15:50:05+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 279896686647,
+      "title": "Corporate Gifting",
+      "handle": "corporate-gifting",
+      "description": "",
+      "published_at": "2025-06-20T11:27:18+05:30",
+      "updated_at": "2026-08-12T12:15:26+05:30",
+      "image": null,
+      "products_count": 2
+    },
+    {
+      "id": 265888268343,
+      "title": "Custom Property Variants List",
+      "handle": "custom-property-variants-list",
+      "description": "",
+      "published_at": "2023-04-26T17:16:51+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 92
+    },
+    {
+      "id": 267367645239,
+      "title": "Customised Sampler Pack",
+      "handle": "customised-sampler-pack",
+      "description": "",
+      "published_at": "2023-11-23T12:21:11+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 7
+    },
+    {
+      "id": 271264612407,
+      "title": "Customised Sampler Pack (Pack of 2)",
+      "handle": "customised-sampler-pack-pack-of-2",
+      "description": "",
+      "published_at": "2024-05-16T11:09:24+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 284901539895,
+      "title": "Dark and medium dark for comfort combo",
+      "handle": "dark-and-medium-dark-for-comfort-combo",
+      "description": "",
+      "published_at": "2026-06-02T13:33:28+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 282630094903,
+      "title": "Dark and Medium Roast Coffees",
+      "handle": "dark-and-medium-coffees",
+      "description": "",
+      "published_at": "2025-12-04T12:12:23+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 98
+    },
+    {
+      "id": 264053260343,
+      "title": "Dark Roast",
+      "handle": "dark-roast",
+      "description": "",
+      "published_at": "2022-08-29T18:39:25+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 276488486967,
+      "title": "Dark Roast Coffee",
+      "handle": "dark-roast-coffee",
+      "description": "",
+      "published_at": "2025-01-22T14:05:11+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 263982481463,
+      "title": "Deals",
+      "handle": "deals",
+      "description": "Ongoing offers or discounts.",
+      "published_at": "2022-08-23T17:36:14+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 618
+    },
+    {
+      "id": 265297068087,
+      "title": "Deals of the month",
+      "handle": "deals-of-the-month",
+      "description": "",
+      "published_at": "2022-12-21T14:04:02+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": {
+        "id": 1615594618935,
+        "created_at": "2022-12-21T14:04:42+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/deals_of_the_month.webp?v=1671611683",
+        "alt": null
+      },
+      "products_count": 4
+    },
+    {
+      "id": 266335060023,
+      "title": "Delicate and Complex",
+      "handle": "delicate-complex",
+      "description": "",
+      "published_at": "2023-08-24T13:39:14+05:30",
+      "updated_at": "2026-07-21T16:31:59+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 274020794423,
+      "title": "Diwali Hampers",
+      "handle": "diwali-hampers",
+      "description": "<h2><strong>Illuminate Your Diwali with <a href=\"https://bluetokaicoffee.com/collections/gifts-hampers\" target=\"_blank\" rel=\"noopener\">Blue Tokai's Diwali Gift Hampers</a></strong></h2>\n<p>Add sparkle to your festival by ordering Blue Tokai Coffee Roasters’ Diwali hampers this festive season. Ideal for those who cannot start a day without a cup of coffee, our hampers unite coffee with sweet innovations – making them the best gift for any occasion.</p>\n<h3><strong>A Curated Collection for Every Coffee Lover</strong></h3>\n<p>Business associates, friends, and family members would all surely appreciate any of our <strong>Diwali Gift Box</strong>. Select from a wide range of our premium quality ground coffee which we give in various categories from light to dark roasted coffee and good quality bakery snacks such as cookies, nuts, etc.</p>\n<h3><strong>Premium Coffee &amp; Delectable Baked Goodness in one Hamper</strong></h3>\n<p>Yours hampers are complete with brewing essentials like <a rel=\"noopener\" href=\"https://bluetokaicoffee.com/collections/easy-pour\" data-mce-href=\"https://bluetokaicoffee.com/collections/easy-pour\" target=\"_blank\">Easy Pour sachets</a> for those who like to take their coffee on the go, and the <a rel=\"noopener\" href=\"https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans\" data-mce-href=\"https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans\" target=\"_blank\">freshly roasted beans</a> for those who prefer to drink their coffee one cup at a time. To make this a perfect Diwali hamper, we have provided assortments of homemade cookies, chocolates, and other trail mixes for people to enjoy with a cup of coffee.</p>\n<h3><strong>The Perfect Gift for All Occasions</strong></h3>\n<p>Whether you're hosting a Diwali party at home or celebrating at the office, our hampers are perfect for every occasion. Tailored to suit a variety of tastes and budgets, these hampers make excellent corporate gifts, offering a thoughtful way to express your appreciation and spread joy during the festive season.</p>\n<h3><a rel=\"noopener\" href=\"https://bluetokaicoffee.com/pages/diwali-gifting\" data-mce-href=\"https://bluetokaicoffee.com/pages/diwali-gifting\" target=\"_blank\"><strong>Shop Diwali Hampers Online</strong></a></h3>\n<p>Go through the <a rel=\"noopener\" href=\"https://bluetokaicoffee.com/\" data-mce-href=\"https://bluetokaicoffee.com/\" target=\"_blank\">Blue Tokai ‘s website</a> and check out our diverse range of Diwali hampers. From premium coffee to <a rel=\"noopener\" href=\"https://bluetokaicoffee.com/collections/diwali-pantry\" data-mce-href=\"https://bluetokaicoffee.com/collections/diwali-pantry\" target=\"_blank\">delightful snacks </a>each rounded off to provide an memorable experience. This Diwali, bring home the perfect Diwali gift hamper with promise of great coffee and memorable moments. </p>\n<p>Shipping Pan India.</p>",
+      "published_at": "2024-09-23T15:41:34+05:30",
+      "updated_at": "2026-09-16T18:27:45+05:30",
+      "image": null,
+      "products_count": 8
+    },
+    {
+      "id": 283958673463,
+      "title": "Drop collection",
+      "handle": "drop-collection",
+      "description": "",
+      "published_at": "2026-03-23T14:08:59+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 283623030839,
+      "title": "Drop: Specialty Coffee Concentrate",
+      "handle": "drop-specialty-coffee-concentrate",
+      "description": "",
+      "published_at": "2026-02-24T13:21:54+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 8
+    },
+    {
+      "id": 158787960887,
+      "title": "Easy Pour",
+      "handle": "easy-pour",
+      "description": "<p>Our <strong>Easy Pour coffee sachets</strong> change the way you brew <strong>specialty coffee</strong>, making it more convenient than ever. With no special brewing equipment, and just a few minutes of your time, you can enjoy great-tasting coffee wherever you are.</p>\n<p>Each coffee sachet is thoughtfully designed with a built-in filter filled with <a style=\"color: #12b1c5;\" rel=\"noopener\" href=\"https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans\" target=\"_blank\"><strong>ground coffee</strong></a> from one of our trusted partner farms. To preserve the freshness of coffee, Easy Pours are nitrogen-flushed. This means that you don't lose any aroma and flavour until you’re ready to brew.</p>\n<p>Using <strong>Easy Pour sachets</strong> is simple and straightforward. Begin by placing the filter over your cup, utilizing the side anchors to secure it in place. Then, slowly fill the filter with hot water two to three times, allowing it to steep through the <strong>coffee grounds</strong>. Think of it as brewing a pour over, but instead of a <a style=\"color: #12b1c5;\" href=\"https://bluetokaicoffee.com/collections/accessories-1/products/v60-filter-paper-v01-v02\" target=\"_blank\"><strong>V60 dripper</strong></a>, you're using an <strong>Easy Pour sachet</strong>, anchored onto a cup.</p>\n<p>Our <strong>Easy Pours</strong> come in convenient packs of 5 and 10 single-serve <strong>coffee sachets</strong>, and are perfect whether you want to enjoy convenient coffee at the comfort of your home, during office breaks, or on the go. They're also a great entry point into the world of specialty coffee since all you need to brew them is hot water. Get started with our single estate Easy Pours or grab our mixed bag to explore diverse roast and flavour profiles.</p>\n<p>And if you want to enjoy the Easy Pour experience, but with a coffee of your choice... our <a style=\"color: #12b1c5;\" href=\"https://bluetokaicoffee.com/collections/accessories-1/products/coffee-drip-bags\" target=\"_blank\"><strong>portable drip coffee filters</strong></a> have you covered!</p>\n<!---->",
+      "published_at": "2020-03-28T13:49:21+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 14
+    },
+    {
+      "id": 262566871095,
+      "title": "Easy Pour Pack of 5",
+      "handle": "easy-pour-pack-of-5",
+      "description": "",
+      "published_at": "2022-01-12T14:20:29+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 11
+    },
+    {
+      "id": 268544311351,
+      "title": "Easy Pour Recommended",
+      "handle": "easy-pour-recommended",
+      "description": "",
+      "published_at": "2024-01-24T17:37:39+05:30",
+      "updated_at": "2026-05-27T04:16:05+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 263129104439,
+      "title": "EP_Black",
+      "handle": "ep-black",
+      "description": "",
+      "published_at": "2022-05-04T19:46:37+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 263129268279,
+      "title": "EP_Fruity",
+      "handle": "ep-fruity",
+      "description": "",
+      "published_at": "2022-05-04T19:44:16+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 263129235511,
+      "title": "EP_Light",
+      "handle": "ep-light",
+      "description": "",
+      "published_at": "2022-05-04T19:44:38+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 2
+    },
+    {
+      "id": 263129169975,
+      "title": "EP_Milk",
+      "handle": "ep-milk",
+      "description": "",
+      "published_at": "2022-05-04T19:45:57+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 263129301047,
+      "title": "EP_Nutty&Choc",
+      "handle": "ep-nutty-choc",
+      "description": "",
+      "published_at": "2022-05-04T19:43:14+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 263129202743,
+      "title": "EP_Strong",
+      "handle": "ep-strong",
+      "description": "",
+      "published_at": "2022-05-04T19:45:27+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 2
+    },
+    {
+      "id": 264052703287,
+      "title": "Espresso",
+      "handle": "espresso",
+      "description": "",
+      "published_at": "2022-08-29T18:40:00+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 42
+    },
+    {
+      "id": 432990664,
+      "title": "Events",
+      "handle": "events",
+      "description": "<meta charset=\"utf-8\"><span>We've created our space to share coffee and transparency and nothing makes us happier than sharing it with like minded people. If you are an organisation or individual with a focus on creating things with locally sourced materials and would like to hold an event at our roasterie, please email us. From artists to designers to chefs and tailors, we are open to all forms of creativity, but would like to focus on featuring unique work that primarily uses materials from within India.</span>",
+      "published_at": "2017-05-22T13:17:16+05:30",
+      "updated_at": "2026-09-21T17:38:53+05:30",
+      "image": {
+        "id": 536481928,
+        "created_at": "2017-05-22T13:35:26+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/60A6119.jpg?v=1495440326",
+        "alt": ""
+      },
+      "products_count": 355
+    },
+    {
+      "id": 267370430519,
+      "title": "Experimental",
+      "handle": "experimental",
+      "description": "",
+      "published_at": "2023-11-23T15:38:09+05:30",
+      "updated_at": "2026-05-27T04:16:05+05:30",
+      "image": null,
+      "products_count": 1
+    },
+    {
+      "id": 165350211639,
+      "title": "Express Only ( Not Bluetokai Express)",
+      "handle": "express-only",
+      "description": "",
+      "published_at": "2020-09-18T14:59:17+05:30",
+      "updated_at": "2026-09-16T18:27:41+05:30",
+      "image": null,
+      "products_count": 199
+    },
+    {
+      "id": 450603336,
+      "title": "Facebook",
+      "handle": "facebook",
+      "description": "",
+      "published_at": "2017-07-21T16:43:23+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 205
+    },
+    {
+      "id": 264952610871,
+      "title": "Facebook -Flexify",
+      "handle": "facebook-flexify",
+      "description": "",
+      "published_at": "2022-11-03T16:37:34+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 1354
+    },
+    {
+      "id": 279896719415,
+      "title": "Festive Gifting",
+      "handle": "festive-gifting",
+      "description": "",
+      "published_at": "2025-06-20T11:27:09+05:30",
+      "updated_at": "2026-08-12T12:15:28+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 264559067191,
+      "title": "Flash Sale",
+      "handle": "flash-sale",
+      "description": "",
+      "published_at": "2023-04-25T17:10:56+05:30",
+      "updated_at": "2026-05-27T04:16:01+05:30",
+      "image": {
+        "id": 1615372550199,
+        "created_at": "2022-09-29T12:04:06+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/Banner_Image_cdcf93fd-a1bf-4534-8adc-ecc75ed5acc4.webp?v=1682422931",
+        "alt": ""
+      },
+      "products_count": 0
+    },
+    {
+      "id": 274492817463,
+      "title": "French Press Offer for Template",
+      "handle": "french-press-offer-for-template",
+      "description": "",
+      "published_at": "2025-06-02T16:51:41+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 180
+    },
+    {
+      "id": 28203256,
+      "title": "Frontpage",
+      "handle": "frontpage",
+      "description": null,
+      "published_at": "2015-01-04T15:10:51+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 46
+    },
+    {
+      "id": 266335092791,
+      "title": "Fruity and Punchy",
+      "handle": "fruity-punchy",
+      "description": "",
+      "published_at": "2023-08-24T13:40:02+05:30",
+      "updated_at": "2026-05-27T04:16:04+05:30",
+      "image": null,
+      "products_count": 10
+    },
+    {
+      "id": 266309074999,
+      "title": "Fruity flavour lovers",
+      "handle": "fruity-flavour-lovers",
+      "description": "",
+      "published_at": "2023-08-16T10:57:32+05:30",
+      "updated_at": "2026-07-21T16:31:59+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 430801032,
+      "title": "Gift Hampers",
+      "handle": "coffee-gift-hampers",
+      "description": "",
+      "published_at": "2025-10-10T13:03:54+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 24
+    },
+    {
+      "id": 267513987127,
+      "title": "Gift Hampers",
+      "handle": "gifts-hampers",
+      "description": "<p><strong>Gift the Perfect Coffee Experience with Our Specialty Coffee Hampers</strong></p>\n<p>Delight your loved ones with a thoughtfully curated gift hamper box featuring a selection of India’s finest specialty coffee. Each coffee gift hamper is beautifully wrapped in regional art, making it the perfect blend of exceptional taste and cultural charm.</p>\n<p><strong>The Perfect Gift for Any Coffee Lover</strong></p>\n<p>Our gift hampers are an ideal way to celebrate special occasions or simply show someone you care. Whether for a seasoned coffee lover or someone new to Indian specialty coffee, these hampers offer an unforgettable gifting experience.</p>\n<p><strong>Quality Coffee, Wrapped in Artful Elegance</strong></p>\n<p>Share the joy of quality coffee with a touch of artful elegance. Our coffee gift hampers are designed to bring a unique, memorable experience, combining the finest specialty coffee with beautiful regional art, perfect for any celebration or occasion.</p>",
+      "published_at": "2024-08-07T12:17:58+05:30",
+      "updated_at": "2026-05-27T04:16:05+05:30",
+      "image": null,
+      "products_count": 2
+    },
+    {
+      "id": 188659332,
+      "title": "Gift Subscriptions",
+      "handle": "gift-subscriptions",
+      "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n<p><span style=\"line-height: 1.4;\"><span><strong><em></em></strong></span></span><span style=\"line-height: 1.4;\"><span>We introduced subscriptions to ensure that you never run out of freshly roasted coffee and now you can gift someone a custom subscription to ensure that they never run out of good coffee too! Each subscription comes with a personalized gift message, custom coffee labels and can be set to a frequency of your choice.</span></span></p>\n<p>All subscriptions are completely customizable so if you don't see the options you want below, just drop us an email and we'll set it up for you.</p>\n<p>Not sure which grind to order? Check out our grind <a href=\"http://blue-tokai-coffee-roasters.myshopify.com/pages/grind\" title=\"Grind Guide\">guide</a>. </p>",
+      "published_at": "2016-07-18T18:49:00+05:30",
+      "updated_at": "2026-09-16T18:27:40+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 3035856904,
+      "title": "Gifts-Coffee",
+      "handle": "gits-coffee",
+      "description": "",
+      "published_at": "2018-01-31T14:00:01+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 95
+    },
+    {
+      "id": 268565872695,
+      "title": "GM Coffees in A Can",
+      "handle": "gm-coffees-in-a-can",
+      "description": "",
+      "published_at": "2024-01-25T16:55:14+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 268565807159,
+      "title": "GM Easy Pour",
+      "handle": "gm-easy-pour",
+      "description": "",
+      "published_at": "2024-01-25T16:51:45+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 268565774391,
+      "title": "GM Easy Pour Top",
+      "handle": "gm-easy-pour-top",
+      "description": "",
+      "published_at": "2024-01-25T16:49:07+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 269199343671,
+      "title": "Iced Latte Cans",
+      "handle": "iced-latte-cans",
+      "description": "",
+      "published_at": "2024-02-27T12:00:10+05:30",
+      "updated_at": "2026-09-17T16:31:53+05:30",
+      "image": null,
+      "products_count": 1
+    },
+    {
+      "id": 280861016119,
+      "title": "India Brews",
+      "handle": "india-brews",
+      "description": "",
+      "published_at": "2025-08-13T09:08:41+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 245
+    },
+    {
+      "id": 261081694263,
+      "title": "Insulated Coffee Mugs",
+      "handle": "insulated-coffee-mugs",
+      "description": "<p data-mce-fragment=\"1\"><span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">Take your coffee on the go with stylish and practical<strong> Insulated coffee mugs</strong> and <strong>KeepCups.</strong> Made with durable materials, our cups are splash proof.  With several colours and designs to choose from, you’ll be sure to find a coffee companion that can work for all your coffee takeaways and be a sustainable solution to paper cups. <em>An added bonus is a 5% discount on your bill if you bring your own sustainable cup to our cafes!</em></span></p>",
+      "published_at": "2021-05-17T16:41:40+05:30",
+      "updated_at": "2026-06-04T00:58:19+05:30",
+      "image": {
+        "id": 1604522868791,
+        "created_at": "2021-05-27T13:07:10+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/mugs.jpg?v=1694590843",
+        "alt": ""
+      },
+      "products_count": 27
+    },
+    {
+      "id": 264052768823,
+      "title": "Inverted Aeropress",
+      "handle": "inverted-aeropress",
+      "description": "",
+      "published_at": "2022-08-29T18:40:36+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 35
+    },
+    {
+      "id": 263155286071,
+      "title": "Kerehaklu Estate Coffee",
+      "handle": "kerehaklu-estate-coffee",
+      "description": "",
+      "published_at": "2022-05-10T12:22:05+05:30",
+      "updated_at": "2026-09-07T13:45:52+05:30",
+      "image": null,
+      "products_count": 2
+    },
+    {
+      "id": 262470205495,
+      "title": "Light Roast",
+      "handle": "light-roast",
+      "description": "",
+      "published_at": "2021-12-24T10:22:37+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 60
+    },
+    {
+      "id": 264053129271,
+      "title": "Light Roast",
+      "handle": "light-roast-1",
+      "description": "",
+      "published_at": "2022-08-29T18:38:34+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 18
+    },
+    {
+      "id": 283337195575,
+      "title": "Limited Time Offer",
+      "handle": "limited-time-offer",
+      "description": "",
+      "published_at": "2026-02-10T16:13:14+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 266312286263,
+      "title": "Little Box Of Love - Ground Coffee",
+      "handle": "little-box-of-love",
+      "description": "",
+      "published_at": "2023-08-17T10:47:50+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 8
+    },
+    {
+      "id": 272203546679,
+      "title": "Manual",
+      "handle": "manual",
+      "description": "",
+      "published_at": "2024-07-01T17:44:51+05:30",
+      "updated_at": "2026-09-21T16:31:28+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 283101134903,
+      "title": "Matcha Kits",
+      "handle": "matcha-kits",
+      "description": "",
+      "published_at": "2026-01-16T12:17:17+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 2
+    },
+    {
+      "id": 264053194807,
+      "title": "Medium Dark Roast",
+      "handle": "medium-dark-roast",
+      "description": "",
+      "published_at": "2022-08-29T18:39:01+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 20
+    },
+    {
+      "id": 276488552503,
+      "title": "Medium Dark Roast Coffee",
+      "handle": "medium-dark-roast-coffee",
+      "description": "",
+      "published_at": "2025-01-22T14:09:26+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 10
+    },
+    {
+      "id": 1788903432,
+      "title": "Medium Dark, Dark Roast Coffee",
+      "handle": "medium-dark-dark-roast-coffee",
+      "description": "",
+      "published_at": "2018-01-19T15:13:03+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 16
+    },
+    {
+      "id": 264053162039,
+      "title": "Medium Roast",
+      "handle": "medium-roast",
+      "description": "",
+      "published_at": "2022-08-29T18:35:29+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 29
+    },
+    {
+      "id": 276488650807,
+      "title": "Medium Roast Coffee",
+      "handle": "medium-roast-coffee",
+      "description": "",
+      "published_at": "2025-01-22T14:11:26+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 7
+    },
+    {
+      "id": 58247905335,
+      "title": "Merchandise",
+      "handle": "merchandise",
+      "description": "",
+      "published_at": "2018-08-14T14:16:06+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 31
+    },
+    {
+      "id": 266289807415,
+      "title": "Milky coffee brewer",
+      "handle": "milky-coffee-brewer",
+      "description": "",
+      "published_at": "2023-08-14T12:52:16+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 9
+    },
+    {
+      "id": 261776212023,
+      "title": "Mixed",
+      "handle": "mixed",
+      "description": "",
+      "published_at": "2021-09-02T11:55:09+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 264024227895,
+      "title": "Moccamaster",
+      "handle": "moccamaster",
+      "description": "",
+      "published_at": "2022-08-26T13:05:22+05:30",
+      "updated_at": "2026-09-16T18:27:42+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 264052867127,
+      "title": "Moka Pot",
+      "handle": "moka-pot",
+      "description": "",
+      "published_at": "2022-08-29T18:41:24+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 29
+    },
+    {
+      "id": 40987852855,
+      "title": "Monsoon-Bynemera-MSEstate",
+      "handle": "monsoon-bynemera-msestate",
+      "description": "",
+      "published_at": "2018-05-31T12:15:28+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 261776179255,
+      "title": "Natural",
+      "handle": "natural",
+      "description": "",
+      "published_at": "2021-09-02T11:53:40+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 20
+    },
+    {
+      "id": 264068595767,
+      "title": "New Arrivals - NAV",
+      "handle": "new-arrivals-nav",
+      "description": "",
+      "published_at": "2022-08-30T11:21:31+05:30",
+      "updated_at": "2026-09-16T18:27:43+05:30",
+      "image": null,
+      "products_count": 9
+    },
+    {
+      "id": 266441195575,
+      "title": "New Coffee Subscription",
+      "handle": "new-coffee-subscription",
+      "description": "",
+      "published_at": "2023-09-20T15:23:35+05:30",
+      "updated_at": "2026-05-27T04:16:05+05:30",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 262055231543,
+      "title": "New products",
+      "handle": "new-collection",
+      "description": "",
+      "published_at": "2022-08-11T11:56:27+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 15
+    },
+    {
+      "id": 266349281335,
+      "title": "No Equipment Collection",
+      "handle": "no-equipment-collection",
+      "description": "",
+      "published_at": "2023-08-29T10:54:14+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 1
+    },
+    {
+      "id": 273943822391,
+      "title": "Non-Subscription Coffees",
+      "handle": "non-subscription-coffees",
+      "description": "",
+      "published_at": "2024-09-19T16:29:26+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 268691079223,
+      "title": "Others",
+      "handle": "others",
+      "description": "",
+      "published_at": "2024-02-01T14:26:07+05:30",
+      "updated_at": "2026-09-17T16:31:53+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 264873050167,
+      "title": "Pantry",
+      "handle": "pantry-1",
+      "description": "We're sorry, but our Pantry products are unavailable on the 23rd, 24th, and 25th of October as most of our food partners and hyper-local couriers are non-operational because of the Diwali holidays. The Pantry collection will be listed again on 26th October, and the deliveries will resume from 27th October onwards. Again, we're sorry for the long wait and wish you a very happy Diwali!",
+      "published_at": "2022-10-22T23:56:59+05:30",
+      "updated_at": "2026-05-27T04:16:01+05:30",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 274050514999,
+      "title": "Pantry",
+      "handle": "pantry",
+      "description": "",
+      "published_at": "2024-09-24T16:12:29+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 14
+    },
+    {
+      "id": 264053030967,
+      "title": "Perfect Coffees for Pour Over Brewing",
+      "handle": "pourover-collection",
+      "description": "",
+      "published_at": "2022-08-29T18:43:24+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 17
+    },
+    {
+      "id": 261526585399,
+      "title": "Pour Over",
+      "handle": "pour-over",
+      "description": "",
+      "published_at": "2021-07-15T16:12:44+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 62
+    },
+    {
+      "id": 35133390903,
+      "title": "Pour Over Starter - Coffee Collection",
+      "handle": "pour-over-starter-coffee-collection",
+      "description": "",
+      "published_at": "2018-03-29T12:37:05+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 10
+    },
+    {
+      "id": 265850748983,
+      "title": "pre-defined sampler pack",
+      "handle": "pre-defined-sampler-pack",
+      "description": "",
+      "published_at": "2023-04-14T12:28:20+05:30",
+      "updated_at": "2026-09-16T18:27:43+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 267050647607,
+      "title": "QR Recommendation",
+      "handle": "qr-recommendation",
+      "description": "",
+      "published_at": "2023-11-08T12:52:16+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 9
+    },
+    {
+      "id": 266093625399,
+      "title": "Rec_AER",
+      "handle": "rec-aer",
+      "description": "",
+      "published_at": "2023-06-20T08:50:37+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 10
+    },
+    {
+      "id": 266093920311,
+      "title": "Rec_BAL_BL",
+      "handle": "rec-bal-bl",
+      "description": "",
+      "published_at": "2023-06-20T08:55:26+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 266094116919,
+      "title": "Rec_BAL_MI",
+      "handle": "rec-bal-mi",
+      "description": "",
+      "published_at": "2023-06-20T08:58:28+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 7
+    },
+    {
+      "id": 266093985847,
+      "title": "Rec_BIT_BL",
+      "handle": "rec-bit-bl",
+      "description": "",
+      "published_at": "2023-06-20T08:57:01+05:30",
+      "updated_at": "2026-09-16T18:27:44+05:30",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 266094182455,
+      "title": "Rec_BIT_MI",
+      "handle": "rec-bit-mi",
+      "description": "",
+      "published_at": "2023-06-20T08:59:24+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 266093461559,
+      "title": "Rec_BLA",
+      "handle": "rec-bla",
+      "description": "",
+      "published_at": "2023-06-20T08:48:39+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 19
+    },
+    {
+      "id": 266093789239,
+      "title": "Rec_CBR",
+      "handle": "rec-cbr",
+      "description": "",
+      "published_at": "2023-06-20T08:51:58+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 266093723703,
+      "title": "Rec_CFI",
+      "handle": "rec-cfi",
+      "description": "",
+      "published_at": "2023-06-20T08:51:30+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 266093428791,
+      "title": "Rec_COL",
+      "handle": "rec-col",
+      "description": "",
+      "published_at": "2023-06-20T08:48:14+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 15
+    },
+    {
+      "id": 266099589175,
+      "title": "Rec_COL_BLA",
+      "handle": "rec-col-bla",
+      "description": "",
+      "published_at": "2023-06-21T09:52:24+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 12
+    },
+    {
+      "id": 266099621943,
+      "title": "Rec_COL_MIL",
+      "handle": "rec-col-mil",
+      "description": "",
+      "published_at": "2023-06-21T09:53:12+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 10
+    },
+    {
+      "id": 266093854775,
+      "title": "Rec_COM_BL",
+      "handle": "rec-com-bl",
+      "description": "",
+      "published_at": "2023-06-20T08:54:46+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 266094051383,
+      "title": "Rec_COM_MI",
+      "handle": "rec-com-mi",
+      "description": "",
+      "published_at": "2023-06-20T08:57:39+05:30",
+      "updated_at": "2026-09-16T18:27:44+05:30",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 266093690935,
+      "title": "Rec_ESP",
+      "handle": "rec-esp",
+      "description": "",
+      "published_at": "2023-06-20T08:51:17+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 11
+    },
+    {
+      "id": 266094018615,
+      "title": "Rec_EXP_BL",
+      "handle": "rec-exp-bl",
+      "description": "",
+      "published_at": "2023-06-20T08:57:18+05:30",
+      "updated_at": "2026-09-16T18:27:44+05:30",
+      "image": null,
+      "products_count": 1
+    },
+    {
+      "id": 266094215223,
+      "title": "Rec_EXP_MI",
+      "handle": "rec-exp-mi",
+      "description": "",
+      "published_at": "2023-06-20T08:59:43+05:30",
+      "updated_at": "2026-09-16T18:27:44+05:30",
+      "image": null,
+      "products_count": 1
+    },
+    {
+      "id": 266093559863,
+      "title": "Rec_FRE",
+      "handle": "rec-fre",
+      "description": "",
+      "published_at": "2023-06-20T08:50:09+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 20
+    },
+    {
+      "id": 266093887543,
+      "title": "Rec_FRU_BL",
+      "handle": "rec-fru-bl",
+      "description": "",
+      "published_at": "2023-06-20T08:55:02+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 266094084151,
+      "title": "Rec_FRU_MI",
+      "handle": "rec-fru-mi",
+      "description": "",
+      "published_at": "2023-06-20T08:58:13+05:30",
+      "updated_at": "2026-09-16T18:27:44+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 266093396023,
+      "title": "Rec_HOT",
+      "handle": "rec-hot",
+      "description": "",
+      "published_at": "2023-06-20T08:46:16+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 20
+    },
+    {
+      "id": 266099523639,
+      "title": "Rec_HOT_BLA",
+      "handle": "rec-hot-bla",
+      "description": "",
+      "published_at": "2023-06-21T09:49:10+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 16
+    },
+    {
+      "id": 266099556407,
+      "title": "Rec_HOT_MIL",
+      "handle": "rec-hot-mil",
+      "description": "",
+      "published_at": "2023-06-21T09:51:35+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 15
+    },
+    {
+      "id": 266093494327,
+      "title": "Rec_MIL",
+      "handle": "rec-mil",
+      "description": "",
+      "published_at": "2023-06-20T08:49:02+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 19
+    },
+    {
+      "id": 266093592631,
+      "title": "Rec_MOK",
+      "handle": "rec-mok",
+      "description": "",
+      "published_at": "2023-06-20T08:50:25+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 11
+    },
+    {
+      "id": 266093527095,
+      "title": "Rec_NEQ",
+      "handle": "rec-neq",
+      "description": "",
+      "published_at": "2023-06-20T08:49:15+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 7
+    },
+    {
+      "id": 266093953079,
+      "title": "Rec_NUT_BL",
+      "handle": "rec-nut-bl",
+      "description": "",
+      "published_at": "2023-06-20T08:55:46+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 9
+    },
+    {
+      "id": 266094149687,
+      "title": "Rec_NUT_MI",
+      "handle": "rec-nut-mi",
+      "description": "",
+      "published_at": "2023-06-20T08:59:00+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 9
+    },
+    {
+      "id": 266093756471,
+      "title": "Rec_POU",
+      "handle": "rec-pou",
+      "description": "",
+      "published_at": "2023-06-20T08:51:43+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 16
+    },
+    {
+      "id": 266093658167,
+      "title": "Rec_SIF",
+      "handle": "rec-sif",
+      "description": "",
+      "published_at": "2023-06-20T08:51:01+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 266093822007,
+      "title": "Rec_TUR",
+      "handle": "rec-tur",
+      "description": "",
+      "published_at": "2023-06-20T08:52:23+05:30",
+      "updated_at": "2026-09-16T18:27:44+05:30",
+      "image": null,
+      "products_count": 2
+    },
+    {
+      "id": 268273680439,
+      "title": "Recommended With Milk",
+      "handle": "recommended-with-milk",
+      "description": "",
+      "published_at": "2024-01-11T12:58:08+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 268274499639,
+      "title": "Recommended without Milk",
+      "handle": "recommended-without-milk",
+      "description": "",
+      "published_at": "2024-01-11T14:15:29+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 430799496,
+      "title": "Roasted Coffee Beans & Ground Coffee",
+      "handle": "roasted-and-ground-coffee-beans",
+      "description": "<p style=\"font-size: 22px;\"><strong>Buy Freshly Roasted Coffee Beans Online with Blue Tokai:  </strong></p>\n<p>For over 13 years, Blue Tokai has been your go-to destination to buy <strong>coffee beans</strong> online, offering India’s finest <strong>freshly roasted coffee beans</strong> and <strong>ground coffee</strong>. Our commitment to quality and craftsmanship has made us a favorite for coffee lovers across the country.</p>\n<p style=\"font-size: 22px;\"><strong>Sourcing the Best Coffee Beans from India’s Top Farms:</strong></p>\n<p>At Blue Tokai, we partner with over <strong>80 of India’s top coffee farms</strong> to bring you freshly roasted coffee beans that are of the highest quality. By working closely with these farmers, we ensure that every cup you enjoy is a reflection of India's diverse coffee-growing regions.</p>\n<p style=\"font-size: 22px;\"><strong>Expert Roasting and Quality Control for Consistent Flavor:</strong></p>\n<p>We use state-of-the-art Probat and IMF machines to craft our <strong>roasted coffee</strong>, following strict industry standards. Every batch is carefully evaluated by certified Q-graders to guarantee consistent flavor and exceptional quality. Whether you're a fan of light roast coffee with delicate notes or bold, rich dark roast coffee, we have something for every taste.</p>\n<p style=\"font-size: 22px;\"><strong>Our Coffee Offerings: Single Origin, Blends, and More:</strong></p>\n<p>Explore our range of light roast coffee for a delicate and complex cup, or enjoy the deep, rich flavour of our dark roast coffee. We offer both <strong>single-origin coffees</strong> and expertly crafted blends to suit all coffee preferences. Our beans are available as <strong>whole beans</strong> or <strong>pre-ground</strong> to fit your<span style=\"color: rgb(18, 177, 197);\"> </span><a rel=\"noopener\" title=\"Brewing Equipment\" href=\"https://bluetokaicoffee.com/collections/brewing-equipment-collection\" target=\"_blank\"><strong><span style=\"color: rgb(18, 177, 197);\">Brewing equipment</span></strong>.</a></p>\n<p style=\"font-size: 22px;\"><strong>Easy Ordering: Buy Coffee Beans Online and Get Them Delivered:</strong></p>\n<p>Ordering is simple—<strong>buy coffee beans online </strong>through our website, the <strong><a rel=\"noopener\" title=\"Blue tokai App\" href=\"https://play.google.com/store/apps/details?id=com.bluetokaicoffee.app&amp;pcampaignid=web_share\" target=\"_blank\"><span style=\"color: rgb(18, 177, 197);\">Blue Tokai app</span></a></strong>, or platforms like Swiggy and Zomato. You can also visit our cafés for a fresh batch. And if you don’t have coffee gear at home, don’t worry! Our Channi coffee lets you brew like a pro with just a tea strainer.</p>\n<p style=\"font-size: 22px;\"><strong>Experience the Best Coffee Delivered to Your Doorstep:</strong></p>\n<p>The coffee we roast is the coffee we love to drink. <strong>Buy coffee beans </strong>from Blue Tokai today and experience the joy of freshly roasted coffee beans delivered straight to your doorstep.</p>",
+      "published_at": "2017-05-11T01:48:59+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 142
+    },
+    {
+      "id": 266047258679,
+      "title": "Roasted coffee products",
+      "handle": "roasted-coffee-products",
+      "description": "<!---->",
+      "published_at": "2023-06-07T11:15:11+05:30",
+      "updated_at": "2026-05-27T04:16:02+05:30",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 166382960695,
+      "title": "Roastery",
+      "handle": "roastery",
+      "description": "",
+      "published_at": "2022-01-05T13:51:45+05:30",
+      "updated_at": "2026-09-16T18:27:41+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 261081661495,
+      "title": "Seasonal Series",
+      "handle": "seasonalseries",
+      "description": "<p data-mce-fragment=\"1\"><span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">Our Seasonal Series is a collection of single-origin Arabica produced by our partner farms in small lots which will be available for a limited amount of time during the year. These lots range from new estates that we are beginning a relationship with, experimental lots that were only produced in a limited quantity and also specific varietals and processing methods with an interesting flavour profile.</span></p>\n<p data-mce-fragment=\"1\"><span style=\"font-weight: 400; color: #006ffa;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">Sign up to our newsletter and stay updated with our latest seasonal coffee launches! </span></p>",
+      "published_at": "2021-05-17T16:38:48+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": {
+        "id": 1604317216823,
+        "created_at": "2021-05-20T19:04:55+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/Seasonal_coffee_landing_page.jpg?v=1621517695",
+        "alt": null
+      },
+      "products_count": 37
+    },
+    {
+      "id": 267385897015,
+      "title": "Semi-Automatic Espresso",
+      "handle": "semi-automatic-espresso",
+      "description": "",
+      "published_at": "2023-11-24T15:13:51+05:30",
+      "updated_at": "2026-05-27T04:16:05+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 267386388535,
+      "title": "Serveware & Mugs",
+      "handle": "serveware-mugs",
+      "description": "",
+      "published_at": "2023-11-24T15:43:32+05:30",
+      "updated_at": "2026-05-27T04:16:05+05:30",
+      "image": null,
+      "products_count": 8
+    },
+    {
+      "id": 282780958775,
+      "title": "Signature Combo",
+      "handle": "signature-combo",
+      "description": "",
+      "published_at": "2025-12-17T11:58:27+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 279823712311,
+      "title": "Sippers",
+      "handle": "sippers",
+      "description": "",
+      "published_at": "2025-06-12T16:57:34+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 2
+    },
+    {
+      "id": 264052801591,
+      "title": "South Indian Filter",
+      "handle": "south-indian-filter",
+      "description": "",
+      "published_at": "2022-08-29T18:41:03+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 23
+    },
+    {
+      "id": 262527025207,
+      "title": "South Indian Filter Collection",
+      "handle": "south-indian-filter-collection",
+      "description": "",
+      "published_at": "2022-01-07T16:53:37+05:30",
+      "updated_at": "2026-09-16T18:27:42+05:30",
+      "image": null,
+      "products_count": 2
+    },
+    {
+      "id": 267386159159,
+      "title": "Spare Parts",
+      "handle": "spare-parts",
+      "description": "",
+      "published_at": "2023-11-24T15:30:27+05:30",
+      "updated_at": "2026-05-27T04:16:05+05:30",
+      "image": null,
+      "products_count": 18
+    },
+    {
+      "id": 264605499447,
+      "title": "Special Launches NAV",
+      "handle": "special-launches-nav",
+      "description": "",
+      "published_at": "2022-10-03T17:25:03+05:30",
+      "updated_at": "2026-09-21T17:38:29+05:30",
+      "image": null,
+      "products_count": 31
+    },
+    {
+      "id": 275782271031,
+      "title": "Starter Packs",
+      "handle": "starter-packs",
+      "description": "",
+      "published_at": "2024-12-19T11:39:20+05:30",
+      "updated_at": "2026-09-16T18:27:46+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 266282663991,
+      "title": "Strong Black Coffee Brewer Collection",
+      "handle": "strong-black-coffee-brewer-collection",
+      "description": "",
+      "published_at": "2023-08-16T11:13:09+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 11
+    },
+    {
+      "id": 264023572535,
+      "title": "Subscription - Easy Pour",
+      "handle": "subscription-easy-pour",
+      "description": "",
+      "published_at": "2022-08-26T10:50:20+05:30",
+      "updated_at": "2026-09-16T18:27:42+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 264023539767,
+      "title": "Subscription - Roasted Coffee",
+      "handle": "subscription-roasted-coffee",
+      "description": "",
+      "published_at": "2022-08-26T10:46:22+05:30",
+      "updated_at": "2026-09-16T18:27:42+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 270591098935,
+      "title": "Subscription Can Products",
+      "handle": "subscription-can-products",
+      "description": "",
+      "published_at": "2024-04-18T17:21:21+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 10
+    },
+    {
+      "id": 270450786359,
+      "title": "Subscription Capsule Products",
+      "handle": "subscription-capsule-products",
+      "description": "",
+      "published_at": "2024-04-11T14:41:29+05:30",
+      "updated_at": "2026-09-16T18:27:45+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 270641659959,
+      "title": "Subscription Cold Brew Bag Products",
+      "handle": "subscription-cold-brew-bag-products",
+      "description": "",
+      "published_at": "2024-04-21T14:46:09+05:30",
+      "updated_at": "2026-09-16T18:27:45+05:30",
+      "image": null,
+      "products_count": 1
+    },
+    {
+      "id": 268937789495,
+      "title": "Subscription Easy Pour Products",
+      "handle": "subscription-easy-pour-products",
+      "description": "",
+      "published_at": "2024-02-14T13:12:20+05:30",
+      "updated_at": "2026-09-19T16:31:47+05:30",
+      "image": null,
+      "products_count": 8
+    },
+    {
+      "id": 268919603255,
+      "title": "Subscription products",
+      "handle": "subscription-products",
+      "description": "",
+      "published_at": "2024-02-13T15:34:23+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 31
+    },
+    {
+      "id": 3044737032,
+      "title": "Subscription-Coffee",
+      "handle": "subscription-coffee",
+      "description": "",
+      "published_at": "2018-02-01T12:55:10+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 29
+    },
+    {
+      "id": 269570998327,
+      "title": "subscription_coffees_new",
+      "handle": "subscription-coffees-new",
+      "description": "",
+      "published_at": "2024-03-08T13:47:35+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 29
+    },
+    {
+      "id": 28474048,
+      "title": "Subscriptions",
+      "handle": "subscriptions",
+      "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><meta charset=\"utf-8\">\n<p><span style=\"color: #000000;\">If you or your friends, family or colleagues are regular coffee drinkers, you can sign up for our subscription service to get regularly scheduled coffee deliveries and save up to 20% versus buying the packets individually.  For those of you who don't like the idea of committing to just one coffee, make sure to check the Mixed Bag option to receive a rotating selection of our coffees over the course of your subscription.</span></p>\n<meta charset=\"utf-8\">\n<p><span style=\"color: #000000;\">All subscriptions are completely <a href=\"https://bluetokaicoffee.com/pages/subscription-faq\" style=\"color: #000000;\">customizable</a> so if you don't see the options you want below, just drop us an email and we'll set it up for you.</span></p>\n<p><span style=\"color: #000000;\">Not sure which grind to order? Check out our grind <a href=\"https://bluetokaicoffee.com/pages/grind\" title=\"Grind Guide\" style=\"color: #000000;\">guide</a>. </span></p>\n<p><span style=\"color: #000000;\"><strong>Note: </strong><em>Currently we are able to serve subscription orders only within India.</em></span></p>",
+      "published_at": "2015-01-13T01:40:00+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": {
+        "id": 534313928,
+        "created_at": "2017-05-11T01:59:44+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/subscription.jpg?v=1494448184",
+        "alt": ""
+      },
+      "products_count": 56
+    },
+    {
+      "id": 263075594295,
+      "title": "Summer Sale",
+      "handle": "summer-sale",
+      "description": "<p><strong>Terms &amp; Conditions</strong></p>\n<ul>\n<li>Offer valid from 15th June 2025 to 21st June 2025. </li>\n<li>Discount auto-applied at checkout.</li>\n<li>Applicable only to Cold Coffee Cans, Cold Brew Cans, Cold Brew Bags, Coromandel Sipper, and Nigiri Tumbler.</li>\n<li>Cans are available in exclusive packs of 2 and 4, and each pack counts as a single item in the cart.</li>\n<li>Offer cannot be combined with other promotions or coupon codes.</li>\n<li>Valid while stock lasts.</li>\n</ul>",
+      "published_at": "2025-06-12T17:09:01+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 12
+    },
+    {
+      "id": 264024555575,
+      "title": "Syphon",
+      "handle": "syphon-1",
+      "description": "",
+      "published_at": "2022-08-26T14:17:52+05:30",
+      "updated_at": "2026-09-16T18:27:42+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 263732428855,
+      "title": "Taster's Club 2022",
+      "handle": "tasters-club-2022",
+      "description": "<p data-mce-fragment=\"1\"><span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">Want to dive deeper into the world of specialty coffee — right from varieties to processing, down to the nuances of roasting?</span></p>\n<p data-mce-fragment=\"1\"><span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">We’re back with the second season of Taster’s Club and if you’re curious to know more about the world of specialty coffee, you should sign up.</span></p>\n<p data-mce-fragment=\"1\"><span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">Each episode delves into a specific topic and comes with a handbook, an exercise and a little kit for you to get hands-on with. In addition to the monthly box that includes 3 x 75g coffee pouches, an SCA flavour wheel, an exercise worksheet and a digital handbook, you will also have access to a community of curious coffee enthusiasts; full of questions, discoveries and fascinating discourses on specialty coffee in India.</span></p>\n<p data-mce-fragment=\"1\"><span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">The second season of Taster’s Club has 9 episodes on offer, broken into 3 themes of 3 episodes each. We will be disclosing topics for 3 episodes at a time — below are the first 3: </span></p>\n<ol data-mce-fragment=\"1\">\n<li style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\"><span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">Peaberries</span></li>\n<li style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\"><span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">Fruit Fermentation</span></li>\n<li style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\"><span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">Yeast Fermentation</span></li>\n</ol>\n<br data-mce-fragment=\"1\">\n<p data-mce-fragment=\"1\"><span style=\"font-weight: 400;\" data-mce-fragment=\"1\" data-mce-style=\"font-weight: 400;\">Orders for the upcoming episodes will be open till 5th of every month and your boxes will be dispatched on the 7th (if not the weekend).</span></p>",
+      "published_at": "2023-07-17T16:07:20+05:30",
+      "updated_at": "2026-07-04T10:23:20+05:30",
+      "image": {
+        "id": 1615193604151,
+        "created_at": "2022-08-25T08:40:24+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/Tasters_sClub_Banner-02.jpg?v=1661397025",
+        "alt": null
+      },
+      "products_count": 3
+    },
+    {
+      "id": 266413113399,
+      "title": "Test Best Selling for New Website",
+      "handle": "test-best-selling-for-new-website",
+      "description": "",
+      "published_at": "2023-09-13T13:52:22+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 278688563255,
+      "title": "Test Coffee Collection for SOLD OUT",
+      "handle": "test-coffee-collection-for-sold-out",
+      "description": "",
+      "published_at": "2025-04-23T12:46:21+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 210
+    },
+    {
+      "id": 264127512631,
+      "title": "Test coffee maker",
+      "handle": "test-coffee-maker",
+      "description": "",
+      "published_at": "2022-09-02T11:53:36+05:30",
+      "updated_at": "2026-09-16T18:27:43+05:30",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 266413867063,
+      "title": "The Rich & Bold Trio Pack Collection",
+      "handle": "the-rich-bold-trio-pack",
+      "description": "",
+      "published_at": "2023-09-13T17:49:28+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 3
+    },
+    {
+      "id": 261096210487,
+      "title": "The Switch Fix",
+      "handle": "coffee-scrub",
+      "description": "",
+      "published_at": "2021-05-19T15:03:43+05:30",
+      "updated_at": "2026-09-16T18:27:41+05:30",
+      "image": {
+        "id": 1604281761847,
+        "created_at": "2021-05-19T15:17:10+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/CB-DG-Coffee-Beans.jpg?v=1621417630",
+        "alt": null
+      },
+      "products_count": 2
+    },
+    {
+      "id": 261974655031,
+      "title": "Timemore",
+      "handle": "timemore",
+      "description": "",
+      "published_at": "2021-10-06T12:51:03+05:30",
+      "updated_at": "2026-09-16T18:27:42+05:30",
+      "image": null,
+      "products_count": 17
+    },
+    {
+      "id": 44667404343,
+      "title": "Training",
+      "handle": "training",
+      "description": "",
+      "published_at": "2018-07-19T18:27:15+05:30",
+      "updated_at": "2026-09-16T18:27:40+05:30",
+      "image": null,
+      "products_count": 56
+    },
+    {
+      "id": 265276162103,
+      "title": "TRY10",
+      "handle": "try10",
+      "description": "",
+      "published_at": "2023-02-01T09:20:34+05:30",
+      "updated_at": "2026-09-16T18:27:43+05:30",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 263301103671,
+      "title": "Upgrade Your Coffee Experience with Premium Coffee Capsules",
+      "handle": "coffee-capsules",
+      "description": "<h2 style=\"font-size: 18px;\"><strong>Enjoy Specialty Coffee with Our Convenient Coffee Capsules</strong></h2>\n<p>Elevate your daily coffee routine with our coffee capsules, designed for quick, mess-free brewing that brings the taste of India’s finest specialty coffees to your cup. Crafted from high-quality aluminum and nitrogen-flushed to lock in freshness and flavor, these capsules offer the perfect blend of convenience and exceptional quality.</p>\n<h3 style=\"font-size: 18px;\"><strong>Brewing Café-Style Coffee at Home Has Never Been Easier</strong></h3>\n<p>With our coffee capsules, you can brew café-quality coffee at home in just seconds. Simply insert a capsule into your Nespresso®* or Nespresso®*<span style=\"color: rgb(0, 0, 0);\">-compatible machine</span>, press the button, and enjoy a rich, full-bodied espresso. Each capsule delivers the perfect shot of espresso, which can be used as the base for your favourite drinks—whether it’s a bold Americano, a creamy latte, or a frothy cappuccino.</p>\n<h3 style=\"font-size: 18px;\"><strong>Sustainable and Convenient Coffee Capsules for Busy Lifestyles</strong></h3>\n<p>Our coffee capsules are made with 80% recyclable aluminum, making them a sustainable choice for coffee lovers who want to reduce waste. Whether it’s a busy morning or a quick office break, these capsules provide a convenient way to enjoy great-tasting coffee without the hassle.</p>\n<h3 style=\"font-size: 18px;\"><strong>A Delicious Selection of Coffee Capsules in Four Varieties</strong></h3>\n<p>Choose from four delicious variants of our coffee pods, featuring diverse roast profiles from medium to dark, including popular options like <a href=\"https://bluetokaicoffee.com/collections/aluminium-capsule/products/attikan-estate-aluminium-coffee-capsules\" title=\"Attikan Estate coffee capsules\" rel=\"noopener\" target=\"_blank\"><strong><span style=\"color: rgb(18, 177, 197);\">Attikan Estate</span></strong></a>. These capsules are available in packs of 16 or 36, making them ideal for coffee enthusiasts brewing solo or sharing with friends.</p>\n<h3 style=\"font-size: 18px;\"><strong>Hassle-Free, High-Quality Coffee Anytime, Anywhere</strong></h3>\n<p>Upgrade your coffee experience with our coffee capsules and enjoy the taste of freshly brewed specialty coffee wherever you are—effortlessly.</p>\n<p><strong>Disclaimer:-</strong><span> Blue Tokai Coffee Roasters is not affiliated with, endorsed, or sponsored by Nespresso®. Nespresso® is a registered trademark of Societe des Produits Nestlé S.A.</span></p>",
+      "published_at": "2022-06-10T11:31:37+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": {
+        "id": 1615038185527,
+        "created_at": "2022-06-10T11:50:35+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/Capsules_CollectionPBNNR_1150X400_f7e2d634-2b23-4206-96c3-947031ccfbce.jpg?v=1702451515",
+        "alt": ""
+      },
+      "products_count": 5
+    },
+    {
+      "id": 265535062071,
+      "title": "Valentine's Day Sale",
+      "handle": "valentines-day-sale",
+      "description": "",
+      "published_at": "2023-03-06T12:21:18+05:30",
+      "updated_at": "2026-05-27T04:16:02+05:30",
+      "image": {
+        "id": 1615879340087,
+        "created_at": "2023-02-09T11:09:10+05:30",
+        "src": "https://cdn.shopify.com/s/files/1/0738/1409/collections/VDAY_B1G50-04.jpg?v=1676007444",
+        "alt": "Blue Tokai Valentine's Day Sale"
+      },
+      "products_count": 0
+    },
+    {
+      "id": 271640264759,
+      "title": "Value Pack",
+      "handle": "value-pack",
+      "description": "",
+      "published_at": "2024-06-03T15:13:28+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 11
+    },
+    {
+      "id": 261776113719,
+      "title": "Washed",
+      "handle": "washed",
+      "description": "",
+      "published_at": "2021-09-02T11:31:01+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 38
+    },
+    {
+      "id": 279896653879,
+      "title": "Wedding Gifting",
+      "handle": "wedding-gifting",
+      "description": "",
+      "published_at": "2025-06-20T11:26:59+05:30",
+      "updated_at": "2026-08-12T12:15:44+05:30",
+      "image": null,
+      "products_count": 6
+    },
+    {
+      "id": 264024948791,
+      "title": "Weighing Scales",
+      "handle": "weighing-scales",
+      "description": "",
+      "published_at": "2022-08-26T15:25:07+05:30",
+      "updated_at": "2026-09-16T18:27:42+05:30",
+      "image": null,
+      "products_count": 8
+    },
+    {
+      "id": 29167836,
+      "title": "Wholesale",
+      "handle": "wholesale",
+      "description": "",
+      "published_at": "2015-02-02T20:40:00+05:30",
+      "updated_at": "2026-09-16T18:27:39+05:30",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 272201318455,
+      "title": "You may also like 1",
+      "handle": "you-may-also-like-1",
+      "description": "",
+      "published_at": "2024-07-01T15:14:59+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 272202661943,
+      "title": "You may also like 2",
+      "handle": "you-may-also-like-2",
+      "description": "",
+      "published_at": "2024-07-01T16:57:44+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    },
+    {
+      "id": 272202793015,
+      "title": "You may also like 3",
+      "handle": "you-may-also-like-3",
+      "description": "",
+      "published_at": "2024-07-01T17:03:42+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 272202858551,
+      "title": "You may also like 4",
+      "handle": "you-may-also-like-4",
+      "description": "",
+      "published_at": "2024-07-01T17:09:46+05:30",
+      "updated_at": "2026-09-22T16:31:35+05:30",
+      "image": null,
+      "products_count": 7
+    },
+    {
+      "id": 272202989623,
+      "title": "You may also like 5",
+      "handle": "you-may-also-like-5",
+      "description": "",
+      "published_at": "2024-07-01T17:20:56+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 272202432567,
+      "title": "You may also like PDP",
+      "handle": "you-may-also-like-pdp",
+      "description": "",
+      "published_at": "2024-07-01T16:44:56+05:30",
+      "updated_at": "2026-09-22T16:31:36+05:30",
+      "image": null,
+      "products_count": 4
+    }
+  ]
+}

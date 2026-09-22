@@ -1,0 +1,1194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beacon Friction Scan — bluetokaicoffee.com</title>
+<style>
+    :root {
+      --bg: #f7f7f5; --surface: #ffffff; --text: #1a1a1a; --muted: #5b5b5b; --border: #dedede;
+      --accent: #1f6feb; --bar-track: #e7e7e3; --bar-fill: #1f6feb;
+      --chip-high-bg: #fde2e1; --chip-high-fg: #8a1c1c;
+      --chip-medium-bg: #fdecc8; --chip-medium-fg: #8a5a00;
+      --chip-low-bg: #e3f0ff; --chip-low-fg: #1a4d8f;
+      --chip-none-bg: #e3f7e6; --chip-none-fg: #1e6b30;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14161a; --surface: #1c1f24; --text: #e9e9e7; --muted: #a1a1a1; --border: #33373d;
+        --accent: #5b9dff; --bar-track: #2a2e34; --bar-fill: #5b9dff;
+        --chip-high-bg: #4a1f1f; --chip-high-fg: #ffb4b0;
+        --chip-medium-bg: #4a3a10; --chip-medium-fg: #ffd98a;
+        --chip-low-bg: #163353; --chip-low-fg: #9cc6ff;
+        --chip-none-bg: #17381f; --chip-none-fg: #93e0a4;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0 0 3rem; background: var(--bg); color: var(--text);
+      font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 0 1.25rem; }
+    header.report-header {
+      background: var(--surface); border-bottom: 1px solid var(--border); padding: 1.5rem 0; margin-bottom: 1.5rem;
+    }
+    header.report-header h1 { margin: 0 0 0.25rem; font-size: 1.5rem; }
+    .badge {
+      display: inline-block; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.02em;
+      text-transform: uppercase; background: var(--chip-none-bg); color: var(--chip-none-fg);
+      border-radius: 999px; padding: 0.15rem 0.65rem; margin-left: 0.5rem; vertical-align: middle;
+    }
+    .header-meta { color: var(--muted); font-size: 0.9rem; }
+    .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1rem 1.25rem; }
+    .tile-value { font-size: 1.9rem; font-weight: 700; }
+    .tile-unit { font-size: 1.1rem; font-weight: 500; color: var(--muted); }
+    .tile-label { color: var(--muted); font-size: 0.85rem; margin-top: 0.25rem; }
+    section { margin-bottom: 2.5rem; }
+    h2 { font-size: 1.2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    h3 { font-size: 1rem; margin-top: 1.5rem; }
+    .section-note { color: var(--muted); font-size: 0.88rem; }
+    .empty-state { color: var(--muted); font-style: italic; }
+    details.restock-row {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+      margin-bottom: 0.6rem; padding: 0.6rem 0.9rem; break-inside: avoid; page-break-inside: avoid;
+    }
+    details.restock-row summary {
+      cursor: pointer; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; list-style: none;
+    }
+    details.restock-row summary::-webkit-details-marker { display: none; }
+    details.restock-row summary::before { content: "▸"; color: var(--muted); }
+    details.restock-row[open] summary::before { content: "▾"; }
+    .rank { font-variant-numeric: tabular-nums; color: var(--muted); min-width: 2.2em; }
+    .title a { color: var(--text); text-decoration: none; font-weight: 600; }
+    .title a:hover { text-decoration: underline; }
+    .soldout { color: var(--muted); font-size: 0.85rem; }
+    .priority-badge {
+      margin-left: auto; font-variant-numeric: tabular-nums; background: var(--chip-low-bg); color: var(--chip-low-fg);
+      border-radius: 6px; padding: 0.15rem 0.5rem; font-size: 0.85rem;
+    }
+    .details-body { margin-top: 0.75rem; padding-top: 0.6rem; border-top: 1px dashed var(--border); }
+    .reason { margin: 0 0 0.6rem; }
+    .bar-row { display: grid; grid-template-columns: 190px 1fr 3.2em; align-items: center; gap: 0.5rem; margin: 0.25rem 0; }
+    .bar-label { font-size: 0.8rem; color: var(--muted); }
+    .bar-track { display: inline-block; height: 8px; background: var(--bar-track); border-radius: 999px; overflow: hidden; }
+    .bar-fill { display: block; height: 100%; background: var(--bar-fill); border-radius: 999px; }
+    .bar-value { font-size: 0.8rem; font-variant-numeric: tabular-nums; text-align: right; }
+    .meta { color: var(--muted); font-size: 0.82rem; margin: 0.3rem 0; }
+    .stage-block { margin-bottom: 1.25rem; }
+    .finding {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+      padding: 0.6rem 0.9rem; margin-bottom: 0.5rem; break-inside: avoid; page-break-inside: avoid;
+    }
+    .finding-head { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+    .chip { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; border-radius: 999px; padding: 0.15rem 0.55rem; }
+    .chip-high { background: var(--chip-high-bg); color: var(--chip-high-fg); }
+    .chip-medium { background: var(--chip-medium-bg); color: var(--chip-medium-fg); }
+    .chip-low { background: var(--chip-low-bg); color: var(--chip-low-fg); }
+    .chip-none { background: var(--chip-none-bg); color: var(--chip-none-fg); }
+    .finding-title { font-weight: 600; }
+    .finding-count { margin-left: auto; color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+    .recommendation { margin: 0.4rem 0; }
+    ul.examples { margin: 0.3rem 0; padding-left: 1.2rem; font-size: 0.88rem; }
+    .example-note { color: var(--muted); }
+    .no-examples { color: var(--muted); font-size: 0.85rem; font-style: italic; }
+    .evidence { color: var(--muted); font-size: 0.78rem; margin: 0.3rem 0 0; }
+    ul.weights, ul.limits { padding-left: 1.2rem; }
+    ul.weights li { font-variant-numeric: tabular-nums; }
+    footer.report-footer {
+      color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 2rem;
+    }
+    .print-header { display: none; }
+    @media print {
+      body { background: #fff; color: #000; }
+      .tile, details.restock-row, .finding { border: 1px solid #999; }
+      details.restock-row { break-inside: avoid; }
+      details.restock-row:not([open]) summary { cursor: default; }
+      a { color: #000; text-decoration: underline; }
+      .print-header {
+        display: block; position: fixed; top: 0; left: 0; right: 0; font-size: 10px; color: #444;
+        padding: 4px 0; text-align: center;
+      }
+      @page { margin: 2cm 1.5cm 1.5cm; size: A4; }
+    }
+</style>
+</head>
+<body>
+<div class="print-header">Beacon Friction Scan — bluetokaicoffee.com — generated 2026-09-22T12:50:49.617Z</div>
+<header class="report-header">
+  <div class="wrap">
+    <h1>Beacon Friction Scan<span class="badge">public data only</span></h1>
+    <div class="header-meta">
+      Store: <strong>bluetokaicoffee.com</strong> ·
+      Snapshot fetched 2026-09-22T12:50:46.757Z ·
+      Report generated 2026-09-22T12:50:49.617Z
+    </div>
+  </div>
+</header>
+<div class="wrap">
+  
+    <div class="tiles">
+      <div class="tile">
+        <div class="tile-value">199<span class="tile-unit">/959</span></div>
+        <div class="tile-label">Variants sold out (of scanned total)</div>
+      </div>
+      <div class="tile">
+        <div class="tile-value">20</div>
+        <div class="tile-label">Products leaking demand on merchandised collections</div>
+      </div>
+      <div class="tile"><div class="tile-value">0</div><div class="tile-label">Sold-out PDPs without back-in-stock capture</div></div>
+    </div>
+  
+    <section id="restock" aria-labelledby="restock-heading">
+      <h2 id="restock-heading">Restock Priority — top 15 of 53</h2>
+      <p class="section-note">
+        "Restock Priority" is an unitless intent-at-risk index (0–1) built from public storefront signals —
+        never a revenue or currency figure. Click a row for its component breakdown.
+      </p>
+      <div class="restock-list">
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#1</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/amruthavarshini-estate" target="_blank" rel="noopener">Amruthavarshini Estate</a></span>
+        <span class="soldout">39/39 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.760</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">39/39 variants sold out (250g / Whole Bean, 250g / Aeropress, 250g / Channi); in Best Coffee Beans in India at position 5; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.88">
+            <span class="bar-fill" style="width:88%"></span>
+          </span>
+          <span class="bar-value">0.88</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 1395 ·
+          Price factor index: 0.749 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.870
+        </p>
+        <p class="meta">Sold-out variants: 250g / Whole Bean, 250g / Aeropress, 250g / Channi, 250g / Coffee Filter, 250g / Cold Brew, 250g / Commercial Espresso, 250g / French Press, 250g / Home Espresso, 250g / Inverted Aeropress, 250g / Moka Pot, 250g / Pourover, 250g / South Indian Filter, 250g / Turkish, 500g / Whole Bean, 500g / Aeropress, 500g / Channi, 500g / Coffee Filter, 500g / Cold Brew, 500g / Commercial Espresso, 500g / French Press, 500g / Home Espresso, 500g / Inverted Aeropress, 500g / Moka Pot, 500g / Pourover, 500g / South Indian Filter, 500g / Turkish, 1000g / Whole Bean, 1000g / Aeropress, 1000g / Channi, 1000g / Coffee Filter, 1000g / Cold Brew, 1000g / Commercial Espresso, 1000g / French Press, 1000g / Home Espresso, 1000g / Inverted Aeropress, 1000g / Moka Pot, 1000g / Pourover, 1000g / South Indian Filter, 1000g / Turkish</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#2</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/kerehaklu-estate-light-1" target="_blank" rel="noopener">Kerehaklu Estate</a></span>
+        <span class="soldout">3/3 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.753</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">3/3 variants sold out (250g, 500g, 1000g); in Bestsellers at position 17; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.82">
+            <span class="bar-fill" style="width:82%"></span>
+          </span>
+          <span class="bar-value">0.82</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 1580 ·
+          Price factor index: 0.762 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.854
+        </p>
+        <p class="meta">Sold-out variants: 250g, 500g, 1000g</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#3</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/assorted-6-pack" target="_blank" rel="noopener">Assorted 6-Pack</a></span>
+        <span class="soldout">1/1 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.732</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">1/1 variants sold out (Default Title); in Bestsellers at position 15; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.84">
+            <span class="bar-fill" style="width:84%"></span>
+          </span>
+          <span class="bar-value">0.84</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 890 ·
+          Price factor index: 0.702 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.860
+        </p>
+        <p class="meta">Sold-out variants: Default Title</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#4</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/wine-barrel-aged" target="_blank" rel="noopener">Wine Barrel Aged Coffee</a></span>
+        <span class="soldout">1/1 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.731</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">1/1 variants sold out (250g); in Best Coffee Beans in India at position 4; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.90">
+            <span class="bar-fill" style="width:90%"></span>
+          </span>
+          <span class="bar-value">0.90</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 650 ·
+          Price factor index: 0.670 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.876
+        </p>
+        <p class="meta">Sold-out variants: 250g</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#5</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/raxidi-lobo-estate-anaerobic-naturals" target="_blank" rel="noopener">Raxidi Lobo Estate - Anaerobic Natural</a></span>
+        <span class="soldout">3/3 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.705</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">3/3 variants sold out (250g, 500g, 1kg); in Bestsellers at position 38; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.59">
+            <span class="bar-fill" style="width:59%"></span>
+          </span>
+          <span class="bar-value">0.59</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 1675 ·
+          Price factor index: 0.768 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.798
+        </p>
+        <p class="meta">Sold-out variants: 250g, 500g, 1kg</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#6</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/howdia-estate" target="_blank" rel="noopener">Howdia Estate</a></span>
+        <span class="soldout">1/1 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.686</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">1/1 variants sold out (250g); in Best Coffee Beans in India at position 15; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.63">
+            <span class="bar-fill" style="width:63%"></span>
+          </span>
+          <span class="bar-value">0.63</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 850 ·
+          Price factor index: 0.698 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.809
+        </p>
+        <p class="meta">Sold-out variants: 250g</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#7</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/warsanlyngdoh-coffee-collective" target="_blank" rel="noopener">Warsanlyngdoh Coffee Collective</a></span>
+        <span class="soldout">39/39 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.681</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">39/39 variants sold out (250g / Whole Bean, 250g / Aeropress, 250g / Channi); in Bestsellers at position 45; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.52">
+            <span class="bar-fill" style="width:52%"></span>
+          </span>
+          <span class="bar-value">0.52</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 1395 ·
+          Price factor index: 0.749 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.779
+        </p>
+        <p class="meta">Sold-out variants: 250g / Whole Bean, 250g / Aeropress, 250g / Channi, 250g / Coffee Filter, 250g / Cold Brew, 250g / Commercial Espresso, 250g / French Press, 250g / Home Espresso, 250g / Inverted Aeropress, 250g / Moka Pot, 250g / Pourover, 250g / South Indian Filter, 250g / Turkish, 500g / Whole Bean, 500g / Aeropress, 500g / Channi, 500g / Coffee Filter, 500g / Cold Brew, 500g / Commercial Espresso, 500g / French Press, 500g / Home Espresso, 500g / Inverted Aeropress, 500g / Moka Pot, 500g / Pourover, 500g / South Indian Filter, 500g / Turkish, 1000g / Whole Bean, 1000g / Aeropress, 1000g / Channi, 1000g / Coffee Filter, 1000g / Cold Brew, 1000g / Commercial Espresso, 1000g / French Press, 1000g / Home Espresso, 1000g / Inverted Aeropress, 1000g / Moka Pot, 1000g / Pourover, 1000g / South Indian Filter, 1000g / Turkish</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#8</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/riverdale-estate-white-rose-2" target="_blank" rel="noopener">Riverdale Estate - White Rose</a></span>
+        <span class="soldout">1/1 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.672</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">1/1 variants sold out (250g); in Bestsellers at position 39; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.58">
+            <span class="bar-fill" style="width:58%"></span>
+          </span>
+          <span class="bar-value">0.58</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 800 ·
+          Price factor index: 0.691 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.795
+        </p>
+        <p class="meta">Sold-out variants: 250g</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#9</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/kerehaklu-estate-peaberries" target="_blank" rel="noopener">Kerehaklu Estate - Peaberries</a></span>
+        <span class="soldout">1/1 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.668</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">1/1 variants sold out (250g); in Bestsellers at position 41; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.56">
+            <span class="bar-fill" style="width:56%"></span>
+          </span>
+          <span class="bar-value">0.56</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 800 ·
+          Price factor index: 0.691 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.790
+        </p>
+        <p class="meta">Sold-out variants: 250g</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#10</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/origin-unhurried-yercaud-pack" target="_blank" rel="noopener">Origin Unhurried: Yercaud Pack</a></span>
+        <span class="soldout">1/1 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.668</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">1/1 variants sold out (225g); in Bestsellers at position 40; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.57">
+            <span class="bar-fill" style="width:57%"></span>
+          </span>
+          <span class="bar-value">0.57</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 750 ·
+          Price factor index: 0.685 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.792
+        </p>
+        <p class="meta">Sold-out variants: 225g</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#11</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/msp-micro-lot-blend" target="_blank" rel="noopener">MSP Micro Lot Blend</a></span>
+        <span class="soldout">1/1 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.663</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">1/1 variants sold out (250g); in Bestsellers at position 42; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.55">
+            <span class="bar-fill" style="width:55%"></span>
+          </span>
+          <span class="bar-value">0.55</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 750 ·
+          Price factor index: 0.685 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.787
+        </p>
+        <p class="meta">Sold-out variants: 250g</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#12</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/mooleh-manay-estate-cm-natural" target="_blank" rel="noopener">Mooleh Manay Estate – CM Natural</a></span>
+        <span class="soldout">1/1 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.660</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">1/1 variants sold out (200g); in Bestsellers at position 46; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.51">
+            <span class="bar-fill" style="width:51%"></span>
+          </span>
+          <span class="bar-value">0.51</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 875 ·
+          Price factor index: 0.701 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.776
+        </p>
+        <p class="meta">Sold-out variants: 200g</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#13</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/skia-coffee-pack-of-2" target="_blank" rel="noopener">SKIA Coffee (Pack of 2)</a></span>
+        <span class="soldout">1/1 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.641</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">1/1 variants sold out (200g); in Bestsellers at position 48; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.48">
+            <span class="bar-fill" style="width:48%"></span>
+          </span>
+          <span class="bar-value">0.48</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 600 ·
+          Price factor index: 0.662 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.771
+        </p>
+        <p class="meta">Sold-out variants: 200g</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#14</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/araku-viishalakshi-fpc" target="_blank" rel="noopener">Araku - Viishalakshi FPC</a></span>
+        <span class="soldout">3/3 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.637</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">3/3 variants sold out (250g, 500g, 1000g); in Bestsellers at position 65; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.30">
+            <span class="bar-fill" style="width:30%"></span>
+          </span>
+          <span class="bar-value">0.30</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 1488 ·
+          Price factor index: 0.755 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.725
+        </p>
+        <p class="meta">Sold-out variants: 250g, 500g, 1000g</p>
+      </div>
+    </details>
+    <details class="restock-row">
+      <summary>
+        <span class="rank">#15</span>
+        <span class="title"><a href="https://bluetokaicoffee.com/products/baarbara-estate-whiskey-barrel" target="_blank" rel="noopener">Baarbara Estate - Whiskey Barrel Aged</a></span>
+        <span class="soldout">1/1 variants sold out</span>
+        <span class="priority-badge" title="Restock Priority index (0–1) — not a currency figure">idx 0.621</span>
+      </summary>
+      <div class="details-body">
+        <p class="reason">1/1 variants sold out (250g); in Bestsellers at position 69; updated 0d ago</p>
+        <div class="components">
+        <div class="bar-row">
+          <span class="bar-label">In merchandised collection</span>
+          <span class="bar-track" role="img" aria-label="In merchandised collection: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection position</span>
+          <span class="bar-track" role="img" aria-label="Collection position: 0.26">
+            <span class="bar-fill" style="width:26%"></span>
+          </span>
+          <span class="bar-value">0.26</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Collection breadth</span>
+          <span class="bar-track" role="img" aria-label="Collection breadth: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Recency</span>
+          <span class="bar-track" role="img" aria-label="Recency: 1.00">
+            <span class="bar-fill" style="width:100%"></span>
+          </span>
+          <span class="bar-value">1.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Discounted (penalty)</span>
+          <span class="bar-track" role="img" aria-label="Discounted (penalty): 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">Sell-through velocity</span>
+          <span class="bar-track" role="img" aria-label="Sell-through velocity: 0.00">
+            <span class="bar-fill" style="width:0%"></span>
+          </span>
+          <span class="bar-value">0.00</span>
+        </div></div>
+        <p class="meta">
+          Median variant price: 1250 ·
+          Price factor index: 0.737 ·
+          Leakage index: 1.00 ·
+          Demand-proxy index: 0.715
+        </p>
+        <p class="meta">Sold-out variants: 250g</p>
+      </div>
+    </details></div>
+    </section>
+  
+    <section id="scorecard" aria-labelledby="scorecard-heading">
+      <h2 id="scorecard-heading">Journey friction scorecard</h2>
+      <p class="section-note">
+        Five shopper-journey stages, each checked against public evidence. A "None" severity chip means the
+        check ran and found no issue, not that the stage was skipped.
+      </p>
+      
+      <div class="stage-block">
+        <h3>Discovery</h3>
+        
+    <div class="finding finding-none">
+      <div class="finding-head">
+        <span class="chip chip-none">None</span>
+        <span class="finding-title">Products with no collection placement</span>
+        <span class="finding-count">0 / 190</span>
+      </div>
+      <p class="recommendation">No action needed — products with no collection placement found no issues on this run.</p>
+      <p class="no-examples">No example URLs recorded for this check.</p>
+      <p class="evidence">Evidence: products.json cross-referenced against collections/&lt;handle&gt;/products.json for every recorded collection, excluding `all`/`frontpage`</p>
+    </div>
+    <div class="finding finding-high">
+      <div class="finding-head">
+        <span class="chip chip-high">High</span>
+        <span class="finding-title">Sold-out products in top collection positions</span>
+        <span class="finding-count">3</span>
+      </div>
+      <p class="recommendation">Reorder the collection grid so a fully sold-out product isn&#39;t the first thing a shopper sees, or restock it before the next campaign send.</p>
+      <ul class="examples"><li><a href="https://bluetokaicoffee.com/products/amruthavarshini-estate" target="_blank" rel="noopener">Amruthavarshini Estate</a> <span class="example-note">— position 5 in Best Coffee Beans in India, fully sold out</span></li><li><a href="https://bluetokaicoffee.com/products/wine-barrel-aged" target="_blank" rel="noopener">Wine Barrel Aged Coffee</a> <span class="example-note">— position 4 in Best Coffee Beans in India, fully sold out</span></li><li><a href="https://bluetokaicoffee.com/products/assorted-6-pack" target="_blank" rel="noopener">Assorted 6-Pack</a> <span class="example-note">— position 8 in Best Sellers NAV, fully sold out</span></li></ul>
+      <p class="evidence">Evidence: collection.&lt;handle&gt;.json position index for fully sold-out products, top 8 positions of any merchandised collection</p>
+    </div>
+      </div>
+      <div class="stage-block">
+        <h3>PDP</h3>
+        
+    <div class="finding finding-medium">
+      <div class="finding-head">
+        <span class="chip chip-medium">Medium</span>
+        <span class="finding-title">Product pages with fewer than 2 images</span>
+        <span class="finding-count">32 / 190</span>
+      </div>
+      <p class="recommendation">Add a second product image — single-image PDPs read as unfinished and convert worse than pages with multiple angles.</p>
+      <ul class="examples"><li><a href="https://bluetokaicoffee.com/products/drop-trial-pack" target="_blank" rel="noopener">Drop Trial Pack</a> <span class="example-note">— 1 image</span></li><li><a href="https://bluetokaicoffee.com/products/ratnagiri-estate-ps4" target="_blank" rel="noopener">Terroir Culture by Ratnagiri Estate</a> <span class="example-note">— 1 image</span></li><li><a href="https://bluetokaicoffee.com/products/riverdale-estate-mosto" target="_blank" rel="noopener">Riverdale Estate - Mosto</a> <span class="example-note">— 1 image</span></li></ul>
+      <p class="evidence">Evidence: products.json `images[]` length per product</p>
+    </div>
+    <div class="finding finding-high">
+      <div class="finding-head">
+        <span class="chip chip-high">High</span>
+        <span class="finding-title">Product pages with a short description</span>
+        <span class="finding-count">65 / 190</span>
+      </div>
+      <p class="recommendation">Expand the description past a couple of sentences — a description under 200 characters gives a shopper nothing to justify the price or answer basic questions.</p>
+      <ul class="examples"><li><a href="https://bluetokaicoffee.com/products/drop-trial-pack" target="_blank" rel="noopener">Drop Trial Pack</a> <span class="example-note">— 0 characters</span></li><li><a href="https://bluetokaicoffee.com/products/kolli-berri-estate-subscription" target="_blank" rel="noopener">Kolli Berri Estate Subscription</a> <span class="example-note">— 0 characters</span></li><li><a href="https://bluetokaicoffee.com/products/kalledevarapura-estate-pulp-sun-dried-subscription-1" target="_blank" rel="noopener">Kalledevarapura Estate - Pulp Sun Dried Subscription</a> <span class="example-note">— 0 characters</span></li></ul>
+      <p class="evidence">Evidence: products.json `body_html` stripped to text, length in characters</p>
+    </div>
+    <div class="finding finding-high">
+      <div class="finding-head">
+        <span class="chip chip-high">High</span>
+        <span class="finding-title">Colour variants missing their own image</span>
+        <span class="finding-count">2 / 3</span>
+      </div>
+      <p class="recommendation">Add a dedicated image for every colour variant — a shopper choosing colour from a swatch with no matching photo is guessing, not deciding.</p>
+      <ul class="examples"><li><a href="https://bluetokaicoffee.com/products/pourover-printed-coffee-tshirt" target="_blank" rel="noopener">COFFEE T-SHIRT Yellow (Pour over)</a> <span class="example-note">— 5 of 5 variants missing their own image</span></li><li><a href="https://bluetokaicoffee.com/products/mokapot-printed-blue-coffee-tshirt" target="_blank" rel="noopener">COFFEE T-SHIRT Blue (Mokapot)</a> <span class="example-note">— 5 of 5 variants missing their own image</span></li></ul>
+      <p class="evidence">Evidence: products.json option named Colour/Color; variant `featured_image` presence (`hasOwnImage`)</p>
+    </div>
+      </div>
+      <div class="stage-block">
+        <h3>Variant selection</h3>
+        
+    <div class="finding finding-medium">
+      <div class="finding-head">
+        <span class="chip chip-medium">Medium</span>
+        <span class="finding-title">Core pack sizes sold out</span>
+        <span class="finding-count">33 / 144</span>
+      </div>
+      <p class="recommendation">Prioritise restocking the middle sizes first — the smallest and largest sizes selling through last is normal; the middle going out isn&#39;t.</p>
+      <ul class="examples"><li><a href="https://bluetokaicoffee.com/products/baarbara-estate-whiskey-barrel" target="_blank" rel="noopener">Baarbara Estate - Whiskey Barrel Aged</a> <span class="example-note">— core sizes 250g sold out</span></li><li><a href="https://bluetokaicoffee.com/products/excelsa-by-mooleh-manay-estate" target="_blank" rel="noopener">Excelsa by Mooleh Manay Estate</a> <span class="example-note">— core sizes 100g sold out</span></li><li><a href="https://bluetokaicoffee.com/products/riverdale-estate-mosto" target="_blank" rel="noopener">Riverdale Estate - Mosto</a> <span class="example-note">— core sizes 200g sold out</span></li></ul>
+      <p class="evidence">Evidence: products.json size option values, ordered; middle 50% checked for sold-out</p>
+    </div>
+      </div>
+      <div class="stage-block">
+        <h3>Intent capture</h3>
+        
+    <div class="finding finding-none">
+      <div class="finding-head">
+        <span class="chip chip-none">None</span>
+        <span class="finding-title">Sold-out PDPs with no back-in-stock capture</span>
+        <span class="finding-count">0 / 19</span>
+      </div>
+      <p class="recommendation">No action needed — sold-out PDPs with no back-in-stock capture found no issues on this run.</p>
+      <p class="no-examples">No example URLs recorded for this check.</p>
+      <p class="evidence">Evidence: PDP HTML sampled for highest-leakage sold-out products; searched for swym/back in stock/notify me/restock/klaviyo-bis/bis markers</p>
+    </div>
+      </div>
+      <div class="stage-block">
+        <h3>Trust / checkout</h3>
+        
+    <div class="finding finding-low">
+      <div class="finding-head">
+        <span class="chip chip-low">Low</span>
+        <span class="finding-title">Shipping / refund policy verification</span>
+        <span class="finding-count">2 / 2</span>
+      </div>
+      <p class="recommendation">This store&#39;s robots.txt disallows /policies/*, so a compliant scanner — and any AI shopping agent or price-comparison tool that honours robots.txt — can&#39;t verify your shipping/refund terms programmatically. Consider allowing those two specific paths if you want that trust signal visible to automated buyers.</p>
+      <p class="no-examples">No example URLs recorded for this check.</p>
+      <p class="evidence">Evidence: robots.txt disallows /policies/* (and /*/policies/*) for User-agent: *, so the shipping/refund policy pages were not fetched (shipping policy not checked (robots.txt disallows); refund policy not checked (robots.txt disallows)); linkedFromHome=false</p>
+    </div>
+      </div>
+    </section>
+  
+    <section id="methodology" aria-labelledby="methodology-heading">
+      <h2 id="methodology-heading">Methodology &amp; limits</h2>
+      <p class="section-note">
+        Every priority, leakage, and demand-proxy number in this report is an <strong>index</strong> of
+        intent at risk, derived from public storefront data — never a currency figure, and never a confirmed
+        sales number.
+      </p>
+      <h3>Restock Priority weights</h3>
+      <ul class="weights"><li><code>inMerch</code>: 0.35</li><li><code>position</code>: 0.25</li><li><code>breadth</code>: 0.15</li><li><code>recency</code>: 0.15</li><li><code>discounted</code>: 0.10</li><li><code>velocity</code>: 0.20</li></ul>
+      <h3>Known limits &amp; assumptions</h3>
+      <ul class="limits"><li>scores are indices, not currency: public storefront data carries no order-volume or revenue signal</li><li>collection positions unavailable for 3/225 collections (robots.txt)</li><li>shipping and refund policies not checked (robots.txt disallows /policies/ for *)</li><li>A1: public storefront JSON reflects live availability; can lag minutes behind actual stock</li><li>A2: collection order approximates merchandising intent; bestseller-style handles approximate demand</li><li>A3: a sold-out variant on a merchandised product is intent lost; we cannot see how much</li><li>A4: detection of back-in-stock capture by HTML markers is approximate (themes vary)</li><li>A5: assumes the reviewer runs on macOS/Linux with Node &gt;=20</li></ul>
+    </section>
+  <footer class="report-footer">
+    Beacon Friction Scanner MVP (Swym take-home) · schema v1 ·
+    generated 2026-09-22T12:50:49.617Z from a snapshot fetched 2026-09-22T12:50:46.757Z ·
+    all figures are indices derived from public storefront data, not currency or confirmed revenue.
+  </footer>
+</div>
+</body>
+</html>

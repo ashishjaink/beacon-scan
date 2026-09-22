@@ -1,0 +1,1703 @@
+{
+  "schemaVersion": 1,
+  "store": {
+    "host": "bluetokaicoffee.com"
+  },
+  "generatedAt": "2026-09-22T12:50:49.617Z",
+  "snapshotFetchedAt": "2026-09-22T12:50:46.757Z",
+  "headline": {
+    "productsScanned": 190,
+    "variantsSoldOut": 199,
+    "variantsTotal": 959,
+    "productsLeakingOnMerch": 20,
+    "soldOutPdpsWithoutCapture": 0
+  },
+  "restock": [
+    {
+      "handle": "amruthavarshini-estate",
+      "title": "Amruthavarshini Estate",
+      "url": "https://bluetokaicoffee.com/products/amruthavarshini-estate",
+      "soldOutVariants": 39,
+      "totalVariants": 39,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g / Whole Bean",
+        "250g / Aeropress",
+        "250g / Channi",
+        "250g / Coffee Filter",
+        "250g / Cold Brew",
+        "250g / Commercial Espresso",
+        "250g / French Press",
+        "250g / Home Espresso",
+        "250g / Inverted Aeropress",
+        "250g / Moka Pot",
+        "250g / Pourover",
+        "250g / South Indian Filter",
+        "250g / Turkish",
+        "500g / Whole Bean",
+        "500g / Aeropress",
+        "500g / Channi",
+        "500g / Coffee Filter",
+        "500g / Cold Brew",
+        "500g / Commercial Espresso",
+        "500g / French Press",
+        "500g / Home Espresso",
+        "500g / Inverted Aeropress",
+        "500g / Moka Pot",
+        "500g / Pourover",
+        "500g / South Indian Filter",
+        "500g / Turkish",
+        "1000g / Whole Bean",
+        "1000g / Aeropress",
+        "1000g / Channi",
+        "1000g / Coffee Filter",
+        "1000g / Cold Brew",
+        "1000g / Commercial Espresso",
+        "1000g / French Press",
+        "1000g / Home Espresso",
+        "1000g / Inverted Aeropress",
+        "1000g / Moka Pot",
+        "1000g / Pourover",
+        "1000g / South Indian Filter",
+        "1000g / Turkish"
+      ],
+      "demandProxy": 0.8695121951219512,
+      "components": {
+        "inMerch": 1,
+        "position": 0.8780487804878049,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7488210039260825,
+      "medianPrice": 1395,
+      "restockPriority": 0.7603105949995712,
+      "rank": 1,
+      "reason": "39/39 variants sold out (250g / Whole Bean, 250g / Aeropress, 250g / Channi); in Best Coffee Beans in India at position 5; updated 0d ago"
+    },
+    {
+      "handle": "kerehaklu-estate-light-1",
+      "title": "Kerehaklu Estate",
+      "url": "https://bluetokaicoffee.com/products/kerehaklu-estate-light-1",
+      "soldOutVariants": 3,
+      "totalVariants": 3,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g",
+        "500g",
+        "1000g"
+      ],
+      "demandProxy": 0.8543010752688172,
+      "components": {
+        "inMerch": 1,
+        "position": 0.8172043010752688,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7616898728343634,
+      "medianPrice": 1580,
+      "restockPriority": 0.7525067763262913,
+      "rank": 2,
+      "reason": "3/3 variants sold out (250g, 500g, 1000g); in Bestsellers at position 17; updated 0d ago"
+    },
+    {
+      "handle": "assorted-6-pack",
+      "title": "Assorted 6-Pack",
+      "url": "https://bluetokaicoffee.com/products/assorted-6-pack",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Default Title"
+      ],
+      "demandProxy": 0.8596774193548388,
+      "components": {
+        "inMerch": 1,
+        "position": 0.8387096774193549,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7023881922538058,
+      "medianPrice": 890,
+      "restockPriority": 0.7317523439284505,
+      "rank": 3,
+      "reason": "1/1 variants sold out (Default Title); in Bestsellers at position 15; updated 0d ago"
+    },
+    {
+      "handle": "wine-barrel-aged",
+      "title": "Wine Barrel Aged Coffee",
+      "url": "https://bluetokaicoffee.com/products/wine-barrel-aged",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g"
+      ],
+      "demandProxy": 0.875609756097561,
+      "components": {
+        "inMerch": 1,
+        "position": 0.9024390243902439,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6699349134425623,
+      "medianPrice": 650,
+      "restockPriority": 0.7311056511291217,
+      "rank": 4,
+      "reason": "1/1 variants sold out (250g); in Best Coffee Beans in India at position 4; updated 0d ago"
+    },
+    {
+      "handle": "raxidi-lobo-estate-anaerobic-naturals",
+      "title": "Raxidi Lobo Estate - Anaerobic Natural",
+      "url": "https://bluetokaicoffee.com/products/raxidi-lobo-estate-anaerobic-naturals",
+      "soldOutVariants": 3,
+      "totalVariants": 3,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g",
+        "500g",
+        "1kg"
+      ],
+      "demandProxy": 0.7978494623655914,
+      "components": {
+        "inMerch": 1,
+        "position": 0.5913978494623655,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7677240290781748,
+      "medianPrice": 1675,
+      "restockPriority": 0.7051888331053794,
+      "rank": 5,
+      "reason": "3/3 variants sold out (250g, 500g, 1kg); in Bestsellers at position 38; updated 0d ago"
+    },
+    {
+      "handle": "howdia-estate",
+      "title": "Howdia Estate",
+      "url": "https://bluetokaicoffee.com/products/howdia-estate",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g"
+      ],
+      "demandProxy": 0.8085365853658537,
+      "components": {
+        "inMerch": 1,
+        "position": 0.6341463414634146,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6976383883042079,
+      "medianPrice": 850,
+      "restockPriority": 0.6863013728327377,
+      "rank": 6,
+      "reason": "1/1 variants sold out (250g); in Best Coffee Beans in India at position 15; updated 0d ago"
+    },
+    {
+      "handle": "warsanlyngdoh-coffee-collective",
+      "title": "Warsanlyngdoh Coffee Collective",
+      "url": "https://bluetokaicoffee.com/products/warsanlyngdoh-coffee-collective",
+      "soldOutVariants": 39,
+      "totalVariants": 39,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g / Whole Bean",
+        "250g / Aeropress",
+        "250g / Channi",
+        "250g / Coffee Filter",
+        "250g / Cold Brew",
+        "250g / Commercial Espresso",
+        "250g / French Press",
+        "250g / Home Espresso",
+        "250g / Inverted Aeropress",
+        "250g / Moka Pot",
+        "250g / Pourover",
+        "250g / South Indian Filter",
+        "250g / Turkish",
+        "500g / Whole Bean",
+        "500g / Aeropress",
+        "500g / Channi",
+        "500g / Coffee Filter",
+        "500g / Cold Brew",
+        "500g / Commercial Espresso",
+        "500g / French Press",
+        "500g / Home Espresso",
+        "500g / Inverted Aeropress",
+        "500g / Moka Pot",
+        "500g / Pourover",
+        "500g / South Indian Filter",
+        "500g / Turkish",
+        "1000g / Whole Bean",
+        "1000g / Aeropress",
+        "1000g / Channi",
+        "1000g / Coffee Filter",
+        "1000g / Cold Brew",
+        "1000g / Commercial Espresso",
+        "1000g / French Press",
+        "1000g / Home Espresso",
+        "1000g / Inverted Aeropress",
+        "1000g / Moka Pot",
+        "1000g / Pourover",
+        "1000g / South Indian Filter",
+        "1000g / Turkish"
+      ],
+      "demandProxy": 0.7790322580645161,
+      "components": {
+        "inMerch": 1,
+        "position": 0.5161290322580645,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7488210039260825,
+      "medianPrice": 1395,
+      "restockPriority": 0.6811939878195951,
+      "rank": 7,
+      "reason": "39/39 variants sold out (250g / Whole Bean, 250g / Aeropress, 250g / Channi); in Bestsellers at position 45; updated 0d ago"
+    },
+    {
+      "handle": "riverdale-estate-white-rose-2",
+      "title": "Riverdale Estate - White Rose",
+      "url": "https://bluetokaicoffee.com/products/riverdale-estate-white-rose-2",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g"
+      ],
+      "demandProxy": 0.7951612903225806,
+      "components": {
+        "inMerch": 1,
+        "position": 0.5806451612903225,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6913768632342879,
+      "medianPrice": 800,
+      "restockPriority": 0.6724587044955678,
+      "rank": 8,
+      "reason": "1/1 variants sold out (250g); in Bestsellers at position 39; updated 0d ago"
+    },
+    {
+      "handle": "kerehaklu-estate-peaberries",
+      "title": "Kerehaklu Estate - Peaberries",
+      "url": "https://bluetokaicoffee.com/products/kerehaklu-estate-peaberries",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g"
+      ],
+      "demandProxy": 0.7897849462365591,
+      "components": {
+        "inMerch": 1,
+        "position": 0.5591397849462365,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6913768632342879,
+      "medianPrice": 800,
+      "restockPriority": 0.6679119924976261,
+      "rank": 9,
+      "reason": "1/1 variants sold out (250g); in Bestsellers at position 41; updated 0d ago"
+    },
+    {
+      "handle": "origin-unhurried-yercaud-pack",
+      "title": "Origin Unhurried: Yercaud Pack",
+      "url": "https://bluetokaicoffee.com/products/origin-unhurried-yercaud-pack",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "225g"
+      ],
+      "demandProxy": 0.7924731182795699,
+      "components": {
+        "inMerch": 1,
+        "position": 0.5698924731182795,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6847116184379816,
+      "medianPrice": 750,
+      "restockPriority": 0.667544334832684,
+      "rank": 10,
+      "reason": "1/1 variants sold out (225g); in Bestsellers at position 40; updated 0d ago"
+    },
+    {
+      "handle": "msp-micro-lot-blend",
+      "title": "MSP Micro Lot Blend",
+      "url": "https://bluetokaicoffee.com/products/msp-micro-lot-blend",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g"
+      ],
+      "demandProxy": 0.7870967741935484,
+      "components": {
+        "inMerch": 1,
+        "position": 0.5483870967741935,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6847116184379816,
+      "medianPrice": 750,
+      "restockPriority": 0.6630155401594637,
+      "rank": 11,
+      "reason": "1/1 variants sold out (250g); in Bestsellers at position 42; updated 0d ago"
+    },
+    {
+      "handle": "mooleh-manay-estate-cm-natural",
+      "title": "Mooleh Manay Estate – CM Natural",
+      "url": "https://bluetokaicoffee.com/products/mooleh-manay-estate-cm-natural",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "200g"
+      ],
+      "demandProxy": 0.7763440860215054,
+      "components": {
+        "inMerch": 1,
+        "position": 0.5053763440860215,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7006324828322318,
+      "medianPrice": 875,
+      "restockPriority": 0.6601379852714362,
+      "rank": 12,
+      "reason": "1/1 variants sold out (200g); in Bestsellers at position 46; updated 0d ago"
+    },
+    {
+      "handle": "skia-coffee-pack-of-2",
+      "title": "SKIA Coffee (Pack of 2)",
+      "url": "https://bluetokaicoffee.com/products/skia-coffee-pack-of-2",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "200g"
+      ],
+      "demandProxy": 0.7709677419354839,
+      "components": {
+        "inMerch": 1,
+        "position": 0.4838709677419355,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6616710293512067,
+      "medianPrice": 600,
+      "restockPriority": 0.6405473806692555,
+      "rank": 13,
+      "reason": "1/1 variants sold out (200g); in Bestsellers at position 48; updated 0d ago"
+    },
+    {
+      "handle": "araku-viishalakshi-fpc",
+      "title": "Araku - Viishalakshi FPC",
+      "url": "https://bluetokaicoffee.com/products/araku-viishalakshi-fpc",
+      "soldOutVariants": 3,
+      "totalVariants": 3,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g",
+        "500g",
+        "1000g"
+      ],
+      "demandProxy": 0.725268817204301,
+      "components": {
+        "inMerch": 1,
+        "position": 0.30107526881720426,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7554902252103595,
+      "medianPrice": 1488,
+      "restockPriority": 0.6366011596260147,
+      "rank": 14,
+      "reason": "3/3 variants sold out (250g, 500g, 1000g); in Bestsellers at position 65; updated 0d ago"
+    },
+    {
+      "handle": "baarbara-estate-whiskey-barrel",
+      "title": "Baarbara Estate - Whiskey Barrel Aged",
+      "url": "https://bluetokaicoffee.com/products/baarbara-estate-whiskey-barrel",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g"
+      ],
+      "demandProxy": 0.714516129032258,
+      "components": {
+        "inMerch": 1,
+        "position": 0.25806451612903225,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7374803910424257,
+      "medianPrice": 1250,
+      "restockPriority": 0.620728881638544,
+      "rank": 15,
+      "reason": "1/1 variants sold out (250g); in Bestsellers at position 69; updated 0d ago"
+    },
+    {
+      "handle": "riverdale-estate-mosto",
+      "title": "Riverdale Estate - Mosto",
+      "url": "https://bluetokaicoffee.com/products/riverdale-estate-mosto",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "200g"
+      ],
+      "demandProxy": 0.7225806451612903,
+      "components": {
+        "inMerch": 1,
+        "position": 0.29032258064516125,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7144260471454005,
+      "medianPrice": 1000,
+      "restockPriority": 0.619405539613822,
+      "rank": 16,
+      "reason": "1/1 variants sold out (200g); in Bestsellers at position 66; updated 0d ago"
+    },
+    {
+      "handle": "raxidi-lobo-estate-pichia-yeast",
+      "title": "Raxidi Lobo Estate - Pichia Yeast",
+      "url": "https://bluetokaicoffee.com/products/raxidi-lobo-estate-pichia-yeast",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "200g"
+      ],
+      "demandProxy": 0.7198924731182795,
+      "components": {
+        "inMerch": 1,
+        "position": 0.27956989247311825,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7144260471454005,
+      "medianPrice": 1000,
+      "restockPriority": 0.6171012035289493,
+      "rank": 17,
+      "reason": "1/1 variants sold out (200g); in Bestsellers at position 67; updated 0d ago"
+    },
+    {
+      "handle": "mocha-cold-coffee",
+      "title": "Mocha Cold Coffee",
+      "url": "https://bluetokaicoffee.com/products/mocha-cold-coffee",
+      "soldOutVariants": 2,
+      "totalVariants": 2,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Pack of 2 Cans",
+        "Pack of 4 Cans"
+      ],
+      "demandProxy": 0.7413978494623656,
+      "components": {
+        "inMerch": 1,
+        "position": 0.3655913978494624,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6488656162808969,
+      "medianPrice": 530,
+      "restockPriority": 0.6112327109815475,
+      "rank": 18,
+      "reason": "2/2 variants sold out (Pack of 2 Cans, Pack of 4 Cans); in Bestsellers at position 59; updated 0d ago"
+    },
+    {
+      "handle": "mokapot-printed-blue-coffee-tshirt",
+      "title": "COFFEE T-SHIRT Blue (Mokapot)",
+      "url": "https://bluetokaicoffee.com/products/mokapot-printed-blue-coffee-tshirt",
+      "soldOutVariants": 4,
+      "totalVariants": 5,
+      "leakage": 0.8,
+      "soldOutVariantTitles": [
+        "Blue / Small",
+        "Blue / Medium",
+        "Blue / Large",
+        "Blue / Extra Large"
+      ],
+      "demandProxy": 0.8970588235294118,
+      "components": {
+        "inMerch": 1,
+        "position": 0.9882352941176471,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7034274854326285,
+      "medianPrice": 899,
+      "restockPriority": 0.6112298624199433,
+      "rank": 19,
+      "reason": "4/5 variants sold out (Blue / Small, Blue / Medium, Blue / Large); in Best selling products at position 1; updated 0d ago"
+    },
+    {
+      "handle": "monsoon-malabar-easy-pour-coffee-sachets",
+      "title": "Monsoon Malabar | Medium-Dark Roast - Easy Pour",
+      "url": "https://bluetokaicoffee.com/products/monsoon-malabar-easy-pour-coffee-sachets",
+      "soldOutVariants": 1,
+      "totalVariants": 2,
+      "leakage": 0.5,
+      "soldOutVariantTitles": [
+        "Pack of 10 Sachets"
+      ],
+      "demandProxy": 0.8758064516129033,
+      "components": {
+        "inMerch": 1,
+        "position": 0.9032258064516129,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6198283635820522,
+      "medianPrice": 400,
+      "restockPriority": 0.3546640328326832,
+      "rank": 20,
+      "reason": "1/2 variants sold out (Pack of 10 Sachets); in Bestsellers at position 9; updated 0d ago"
+    },
+    {
+      "handle": "13th-birthday-blend",
+      "title": "13th Birthday Blend",
+      "url": "https://bluetokaicoffee.com/products/13th-birthday-blend",
+      "soldOutVariants": 3,
+      "totalVariants": 3,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g",
+        "500g",
+        "1000g"
+      ],
+      "demandProxy": 0.3,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7554902252103595,
+      "medianPrice": 1488,
+      "restockPriority": 0.26332353378155393,
+      "rank": 21,
+      "reason": "3/3 variants sold out (250g, 500g, 1000g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "winter-blend-1",
+      "title": "Winter Blend",
+      "url": "https://bluetokaicoffee.com/products/winter-blend-1",
+      "soldOutVariants": 39,
+      "totalVariants": 39,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "250g / Whole Bean",
+        "250g / Aeropress",
+        "250g / Channi",
+        "250g / Coffee Filter",
+        "250g / Cold Brew",
+        "250g / Commercial Espresso",
+        "250g / French Press",
+        "250g / Home Espresso",
+        "250g / Inverted Aeropress",
+        "250g / Moka Pot",
+        "250g / Pourover",
+        "250g / South Indian Filter",
+        "250g / Turkish",
+        "500g / Whole Bean",
+        "500g / Aeropress",
+        "500g / Channi",
+        "500g / Coffee Filter",
+        "500g / Cold Brew",
+        "500g / Commercial Espresso",
+        "500g / French Press",
+        "500g / Home Espresso",
+        "500g / Inverted Aeropress",
+        "500g / Moka Pot",
+        "500g / Pourover",
+        "500g / South Indian Filter",
+        "500g / Turkish",
+        "1000g / Whole Bean",
+        "1000g / Aeropress",
+        "1000g / Channi",
+        "1000g / Coffee Filter",
+        "1000g / Cold Brew",
+        "1000g / Commercial Espresso",
+        "1000g / French Press",
+        "1000g / Home Espresso",
+        "1000g / Inverted Aeropress",
+        "1000g / Moka Pot",
+        "1000g / Pourover",
+        "1000g / South Indian Filter",
+        "1000g / Turkish"
+      ],
+      "demandProxy": 0.3,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7488210039260825,
+      "medianPrice": 1395,
+      "restockPriority": 0.26232315058891237,
+      "rank": 22,
+      "reason": "39/39 variants sold out (250g / Whole Bean, 250g / Aeropress, 250g / Channi); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "riverdale-estate-gesha-natural",
+      "title": "Riverdale Estate - Gesha Natural",
+      "url": "https://bluetokaicoffee.com/products/riverdale-estate-gesha-natural",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "100gms"
+      ],
+      "demandProxy": 0.3,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7332624816877957,
+      "medianPrice": 1200,
+      "restockPriority": 0.25998937225316937,
+      "rank": 23,
+      "reason": "1/1 variants sold out (100gms); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "pourover-printed-coffee-tshirt",
+      "title": "COFFEE T-SHIRT Yellow (Pour over)",
+      "url": "https://bluetokaicoffee.com/products/pourover-printed-coffee-tshirt",
+      "soldOutVariants": 5,
+      "totalVariants": 5,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Yellow / Small",
+        "Yellow / Medium",
+        "Yellow / Large",
+        "Yellow / Extra Large",
+        "Yellow / Double Extra Large"
+      ],
+      "demandProxy": 0.3,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7034274854326285,
+      "medianPrice": 899,
+      "restockPriority": 0.2555141228148942,
+      "rank": 24,
+      "reason": "5/5 variants sold out (Yellow / Small, Yellow / Medium, Yellow / Large); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "mokapot-print-black-tshirt",
+      "title": "COFFEE T-SHIRT Black (Mokapot)",
+      "url": "https://bluetokaicoffee.com/products/mokapot-print-black-tshirt",
+      "soldOutVariants": 5,
+      "totalVariants": 5,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Small",
+        "Medium",
+        "Large",
+        "Extra Large",
+        "Double Extra Large"
+      ],
+      "demandProxy": 0.3,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7034274854326285,
+      "medianPrice": 899,
+      "restockPriority": 0.2555141228148942,
+      "rank": 25,
+      "reason": "5/5 variants sold out (Small, Medium, Large); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "riverdale-estate-fruit-punch",
+      "title": "Riverdale Estate – Fruit Punch",
+      "url": "https://bluetokaicoffee.com/products/riverdale-estate-fruit-punch",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "200g"
+      ],
+      "demandProxy": 0.3,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7006324828322318,
+      "medianPrice": 875,
+      "restockPriority": 0.25509487242483475,
+      "rank": 26,
+      "reason": "1/1 variants sold out (200g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "ratnagiri-estate-yc-01",
+      "title": "Ratnagiri Estate - YC 01",
+      "url": "https://bluetokaicoffee.com/products/ratnagiri-estate-yc-01",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "200g"
+      ],
+      "demandProxy": 0.3,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7006324828322318,
+      "medianPrice": 875,
+      "restockPriority": 0.25509487242483475,
+      "rank": 27,
+      "reason": "1/1 variants sold out (200g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "garigekhan-estate-cat-129",
+      "title": "Garigekhan Estate - CAT - 129",
+      "url": "https://bluetokaicoffee.com/products/garigekhan-estate-cat-129",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "100gms"
+      ],
+      "demandProxy": 0.3,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6775869832055583,
+      "medianPrice": 700,
+      "restockPriority": 0.25163804748083374,
+      "rank": 28,
+      "reason": "1/1 variants sold out (100gms); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "half-caff",
+      "title": "Half - Caff",
+      "url": "https://bluetokaicoffee.com/products/half-caff",
+      "soldOutVariants": 2,
+      "totalVariants": 2,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "100g",
+        "200g"
+      ],
+      "demandProxy": 0.3,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6658855001747935,
+      "medianPrice": 625,
+      "restockPriority": 0.249882825026219,
+      "rank": 29,
+      "reason": "2/2 variants sold out (100g, 200g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "sicc-excelsa",
+      "title": "SICC - Excelsa",
+      "url": "https://bluetokaicoffee.com/products/sicc-excelsa",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "100gms"
+      ],
+      "demandProxy": 0.3,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6545488486008193,
+      "medianPrice": 560,
+      "restockPriority": 0.24818232729012288,
+      "rank": 30,
+      "reason": "1/1 variants sold out (100gms); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "the-teenage-trail-box-of-13-coffees",
+      "title": "The Teenage Trail - Box of 13 Coffees",
+      "url": "https://bluetokaicoffee.com/products/the-teenage-trail-box-of-13-coffees",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "390g"
+      ],
+      "demandProxy": 0.27,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.8,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7807504420762543,
+      "medianPrice": 1900,
+      "restockPriority": 0.24040130968029436,
+      "rank": 31,
+      "reason": "1/1 variants sold out (390g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "kerehaklu-estate-blossom-culture",
+      "title": "Kerehaklu Estate - Blossom Culture",
+      "url": "https://bluetokaicoffee.com/products/kerehaklu-estate-blossom-culture",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "200g"
+      ],
+      "demandProxy": 0.27,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.8,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7144260471454005,
+      "medianPrice": 1000,
+      "restockPriority": 0.23144751636462907,
+      "rank": 32,
+      "reason": "1/1 variants sold out (200g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "excelsa-by-mooleh-manay-estate",
+      "title": "Excelsa by Mooleh Manay Estate",
+      "url": "https://bluetokaicoffee.com/products/excelsa-by-mooleh-manay-estate",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "100g"
+      ],
+      "demandProxy": 0.27,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.8,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6616710293512067,
+      "medianPrice": 600,
+      "restockPriority": 0.22432558896241292,
+      "rank": 33,
+      "reason": "1/1 variants sold out (100g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "big-box-of-comfort",
+      "title": "Big Box of Comfort",
+      "url": "https://bluetokaicoffee.com/products/big-box-of-comfort",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Default Title"
+      ],
+      "demandProxy": 0.24,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.6,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7806960307091177,
+      "medianPrice": 1899,
+      "restockPriority": 0.21368352368509413,
+      "rank": 34,
+      "reason": "1/1 variants sold out (Default Title); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "taanka-festive-special",
+      "title": "Taanka | Festive Special",
+      "url": "https://bluetokaicoffee.com/products/taanka-festive-special",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Default Title"
+      ],
+      "demandProxy": 0.27,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.8,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.5713804626284804,
+      "medianPrice": 250,
+      "restockPriority": 0.21213636245484488,
+      "rank": 35,
+      "reason": "1/1 variants sold out (Default Title); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "taanka-classic-blue",
+      "title": "Taanka | Classic Blue",
+      "url": "https://bluetokaicoffee.com/products/taanka-classic-blue",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Default Title"
+      ],
+      "demandProxy": 0.27,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.8,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.5713804626284804,
+      "medianPrice": 250,
+      "restockPriority": 0.21213636245484488,
+      "rank": 36,
+      "reason": "1/1 variants sold out (Default Title); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "little-box-of-love",
+      "title": "Little Box of Love",
+      "url": "https://bluetokaicoffee.com/products/little-box-of-love",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Default Title"
+      ],
+      "demandProxy": 0.24,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.6,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7414534639908632,
+      "medianPrice": 1299,
+      "restockPriority": 0.20897441567890357,
+      "rank": 37,
+      "reason": "1/1 variants sold out (Default Title); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "crc",
+      "title": "Climate Resilient Coffees",
+      "url": "https://bluetokaicoffee.com/products/crc",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "130g"
+      ],
+      "demandProxy": 0.21,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.4,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7144260471454005,
+      "medianPrice": 1000,
+      "restockPriority": 0.18001473495026704,
+      "rank": 38,
+      "reason": "1/1 variants sold out (130g); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "moka-pot-hoodie",
+      "title": "Moka Pot Hoodie",
+      "url": "https://bluetokaicoffee.com/products/moka-pot-hoodie",
+      "soldOutVariants": 5,
+      "totalVariants": 5,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Small",
+        "Medium",
+        "Large",
+        "Extra Large",
+        "Double Extra Large"
+      ],
+      "demandProxy": 0.19999999999999998,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 1,
+        "velocity": 0
+      },
+      "priceFactor": 0.7629252017133311,
+      "medianPrice": 1599,
+      "restockPriority": 0.1762925201713331,
+      "rank": 39,
+      "reason": "5/5 variants sold out (Small, Medium, Large); not in a merchandised collection; updated 0d ago; discounted"
+    },
+    {
+      "handle": "espresso-machine",
+      "title": "Mage - Espresso Machine",
+      "url": "https://bluetokaicoffee.com/products/espresso-machine",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Default Title"
+      ],
+      "demandProxy": 0.17,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.8,
+        "recency": 1,
+        "discounted": 1,
+        "velocity": 0
+      },
+      "priceFactor": 1,
+      "medianPrice": 27999,
+      "restockPriority": 0.17,
+      "rank": 40,
+      "reason": "1/1 variants sold out (Default Title); not in a merchandised collection; updated 0d ago; discounted"
+    },
+    {
+      "handle": "coffee-journal",
+      "title": "Coffee Journal",
+      "url": "https://bluetokaicoffee.com/products/coffee-journal",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Default Title"
+      ],
+      "demandProxy": 0.19999999999999998,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 1,
+        "velocity": 0
+      },
+      "priceFactor": 0.638639028654834,
+      "medianPrice": 480,
+      "restockPriority": 0.16386390286548339,
+      "rank": 41,
+      "reason": "1/1 variants sold out (Default Title); not in a merchandised collection; updated 0d ago; discounted"
+    },
+    {
+      "handle": "versova-cafe-tee-grey",
+      "title": "Versova Cafe Tee (Grey)",
+      "url": "https://bluetokaicoffee.com/products/versova-cafe-tee-grey",
+      "soldOutVariants": 3,
+      "totalVariants": 4,
+      "leakage": 0.75,
+      "soldOutVariantTitles": [
+        "Small",
+        "Large",
+        "Extra Large"
+      ],
+      "demandProxy": 0.19999999999999998,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 1,
+        "velocity": 0
+      },
+      "priceFactor": 0.6803524783722101,
+      "medianPrice": 719,
+      "restockPriority": 0.12602643587791576,
+      "rank": 42,
+      "reason": "3/4 variants sold out (Small, Large, Extra Large); not in a merchandised collection; updated 0d ago; discounted"
+    },
+    {
+      "handle": "coffee-drip-bags",
+      "title": "Portable Drip Bags",
+      "url": "https://bluetokaicoffee.com/products/coffee-drip-bags",
+      "soldOutVariants": 1,
+      "totalVariants": 2,
+      "leakage": 0.5,
+      "soldOutVariantTitles": [
+        "2 x 20 drip bags"
+      ],
+      "demandProxy": 0.27,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.8,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.647887285418335,
+      "medianPrice": 525,
+      "restockPriority": 0.11123239176573763,
+      "rank": 43,
+      "reason": "1/2 variants sold out (2 x 20 drip bags); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "all-products",
+      "title": "All Products",
+      "url": "https://bluetokaicoffee.com/products/all-products",
+      "soldOutVariants": 1,
+      "totalVariants": 1,
+      "leakage": 1,
+      "soldOutVariantTitles": [
+        "Default Title"
+      ],
+      "demandProxy": 0.21,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.4,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0,
+      "medianPrice": 0,
+      "restockPriority": 0.105,
+      "rank": 44,
+      "reason": "1/1 variants sold out (Default Title); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "salted-almonds",
+      "title": "Salted Almonds",
+      "url": "https://bluetokaicoffee.com/products/salted-almonds",
+      "soldOutVariants": 1,
+      "totalVariants": 2,
+      "leakage": 0.5,
+      "soldOutVariantTitles": [
+        "Pack of 2"
+      ],
+      "demandProxy": 0.24,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.6,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6312893476451518,
+      "medianPrice": 447,
+      "restockPriority": 0.0978773608587091,
+      "rank": 45,
+      "reason": "1/2 variants sold out (Pack of 2); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "salted-cashews",
+      "title": "Salted Cashews",
+      "url": "https://bluetokaicoffee.com/products/salted-cashews",
+      "soldOutVariants": 1,
+      "totalVariants": 2,
+      "leakage": 0.5,
+      "soldOutVariantTitles": [
+        "Pack of 2"
+      ],
+      "demandProxy": 0.24,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.6,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.6312893476451518,
+      "medianPrice": 447,
+      "restockPriority": 0.0978773608587091,
+      "rank": 46,
+      "reason": "1/2 variants sold out (Pack of 2); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "comfort-combo",
+      "title": "Comfort Combo",
+      "url": "https://bluetokaicoffee.com/products/comfort-combo",
+      "soldOutVariants": 2,
+      "totalVariants": 4,
+      "leakage": 0.5,
+      "soldOutVariantTitles": [
+        "Wheat Bran Coconut cookies",
+        "Oatmeal & cranberry cookies"
+      ],
+      "demandProxy": 0.19999999999999998,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 1,
+        "velocity": 0
+      },
+      "priceFactor": 0.6802087552068128,
+      "medianPrice": 718,
+      "restockPriority": 0.08401043776034063,
+      "rank": 47,
+      "reason": "2/4 variants sold out (Wheat Bran Coconut cookies, Oatmeal & cranberry cookies); not in a merchandised collection; updated 0d ago; discounted"
+    },
+    {
+      "handle": "v60-filter-paper-v01-v02",
+      "title": "V60 Filter Paper/(V01& V02)",
+      "url": "https://bluetokaicoffee.com/products/v60-filter-paper-v01-v02",
+      "soldOutVariants": 1,
+      "totalVariants": 2,
+      "leakage": 0.5,
+      "soldOutVariantTitles": [
+        "V01"
+      ],
+      "demandProxy": 0.19999999999999998,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 1,
+        "velocity": 0
+      },
+      "priceFactor": 0.6198283635820522,
+      "medianPrice": 400,
+      "restockPriority": 0.0809914181791026,
+      "rank": 48,
+      "reason": "1/2 variants sold out (V01); not in a merchandised collection; updated 0d ago; discounted"
+    },
+    {
+      "handle": "24-delivery-easy-pour-subscription",
+      "title": "24 Delivery Easy Pour Subscription",
+      "url": "https://bluetokaicoffee.com/products/24-delivery-easy-pour-subscription",
+      "soldOutVariants": 2,
+      "totalVariants": 11,
+      "leakage": 0.18181818181818182,
+      "soldOutVariantTitles": [
+        "Seethargundu Estate | Light Roast / Pack of 10",
+        "Sula Barrel Aged Blend | Medium Dark Roast / Pack of 10"
+      ],
+      "demandProxy": 0.27,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.8,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.9251473566013902,
+      "medianPrice": 7680,
+      "restockPriority": 0.0472536169347614,
+      "rank": 49,
+      "reason": "2/11 variants sold out (Seethargundu Estate | Light Roast / Pack of 10, Sula Barrel Aged Blend | Medium Dark Roast / Pack of 10); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "easy-pour-subscription",
+      "title": "3 Delivery Easy Pour Subscription",
+      "url": "https://bluetokaicoffee.com/products/easy-pour-subscription",
+      "soldOutVariants": 2,
+      "totalVariants": 11,
+      "leakage": 0.18181818181818182,
+      "soldOutVariantTitles": [
+        "Seethargundu Estate | Light Roast / Pack of 10",
+        "Sula Barrel Aged Blend | Medium Dark Roast / Pack of 10"
+      ],
+      "demandProxy": 0.3,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 1,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7223768435799452,
+      "medianPrice": 1080,
+      "restockPriority": 0.046973913915816685,
+      "rank": 50,
+      "reason": "2/11 variants sold out (Seethargundu Estate | Light Roast / Pack of 10, Sula Barrel Aged Blend | Medium Dark Roast / Pack of 10); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "12-delivery-easy-pour-subscription",
+      "title": "12 Delivery Easy Pour Subscription",
+      "url": "https://bluetokaicoffee.com/products/12-delivery-easy-pour-subscription",
+      "soldOutVariants": 2,
+      "totalVariants": 11,
+      "leakage": 0.18181818181818182,
+      "soldOutVariantTitles": [
+        "Seethargundu Estate | Light Roast / Pack of 10",
+        "Sula Barrel Aged Blend | Medium Dark Roast / Pack of 10"
+      ],
+      "demandProxy": 0.27,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.8,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.8566645443911429,
+      "medianPrice": 3960,
+      "restockPriority": 0.04557267518050988,
+      "rank": 51,
+      "reason": "2/11 variants sold out (Seethargundu Estate | Light Roast / Pack of 10, Sula Barrel Aged Blend | Medium Dark Roast / Pack of 10); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "6-delivery-easy-pour-subscription",
+      "title": "6 Delivery Easy Pour Subscription",
+      "url": "https://bluetokaicoffee.com/products/6-delivery-easy-pour-subscription",
+      "soldOutVariants": 2,
+      "totalVariants": 11,
+      "leakage": 0.18181818181818182,
+      "soldOutVariantTitles": [
+        "Seethargundu Estate | Light Roast / Pack of 10",
+        "Sula Barrel Aged Blend | Medium Dark Roast / Pack of 10"
+      ],
+      "demandProxy": 0.27,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.8,
+        "recency": 1,
+        "discounted": 0,
+        "velocity": 0
+      },
+      "priceFactor": 0.7910947717096254,
+      "medianPrice": 2100,
+      "restockPriority": 0.043963235305599896,
+      "rank": 52,
+      "reason": "2/11 variants sold out (Seethargundu Estate | Light Roast / Pack of 10, Sula Barrel Aged Blend | Medium Dark Roast / Pack of 10); not in a merchandised collection; updated 0d ago"
+    },
+    {
+      "handle": "coffee-french-press",
+      "title": "Coffee + French Press",
+      "url": "https://bluetokaicoffee.com/products/coffee-french-press",
+      "soldOutVariants": 1,
+      "totalVariants": 23,
+      "leakage": 0.043478260869565216,
+      "soldOutVariantTitles": [
+        "Hidden Falls Estate - 250g"
+      ],
+      "demandProxy": 0.13999999999999999,
+      "components": {
+        "inMerch": 0,
+        "position": 0,
+        "breadth": 0.6,
+        "recency": 1,
+        "discounted": 1,
+        "velocity": 0
+      },
+      "priceFactor": 0.7751624375734472,
+      "medianPrice": 1800,
+      "restockPriority": 0.005402668288267012,
+      "rank": 53,
+      "reason": "1/23 variants sold out (Hidden Falls Estate - 250g); not in a merchandised collection; updated 0d ago; discounted"
+    }
+  ],
+  "scorecard": [
+    {
+      "stage": "discovery",
+      "check": "orphan-products",
+      "title": "Products with no collection placement",
+      "severity": "none",
+      "count": 0,
+      "denominator": 190,
+      "examples": [],
+      "recommendation": "No action needed — products with no collection placement found no issues on this run.",
+      "evidence": "products.json cross-referenced against collections/<handle>/products.json for every recorded collection, excluding `all`/`frontpage`"
+    },
+    {
+      "stage": "discovery",
+      "check": "sold-out-in-top-positions",
+      "title": "Sold-out products in top collection positions",
+      "severity": "high",
+      "count": 3,
+      "denominator": null,
+      "examples": [
+        {
+          "title": "Amruthavarshini Estate",
+          "url": "https://bluetokaicoffee.com/products/amruthavarshini-estate",
+          "note": "position 5 in Best Coffee Beans in India, fully sold out"
+        },
+        {
+          "title": "Wine Barrel Aged Coffee",
+          "url": "https://bluetokaicoffee.com/products/wine-barrel-aged",
+          "note": "position 4 in Best Coffee Beans in India, fully sold out"
+        },
+        {
+          "title": "Assorted 6-Pack",
+          "url": "https://bluetokaicoffee.com/products/assorted-6-pack",
+          "note": "position 8 in Best Sellers NAV, fully sold out"
+        }
+      ],
+      "recommendation": "Reorder the collection grid so a fully sold-out product isn't the first thing a shopper sees, or restock it before the next campaign send.",
+      "evidence": "collection.<handle>.json position index for fully sold-out products, top 8 positions of any merchandised collection"
+    },
+    {
+      "stage": "pdp",
+      "check": "low-image-count",
+      "title": "Product pages with fewer than 2 images",
+      "severity": "medium",
+      "count": 32,
+      "denominator": 190,
+      "examples": [
+        {
+          "title": "Drop Trial Pack",
+          "url": "https://bluetokaicoffee.com/products/drop-trial-pack",
+          "note": "1 image"
+        },
+        {
+          "title": "Terroir Culture by Ratnagiri Estate",
+          "url": "https://bluetokaicoffee.com/products/ratnagiri-estate-ps4",
+          "note": "1 image"
+        },
+        {
+          "title": "Riverdale Estate - Mosto",
+          "url": "https://bluetokaicoffee.com/products/riverdale-estate-mosto",
+          "note": "1 image"
+        },
+        {
+          "title": "Raxidi Lobo Estate - Pichia Yeast",
+          "url": "https://bluetokaicoffee.com/products/raxidi-lobo-estate-pichia-yeast",
+          "note": "1 image"
+        },
+        {
+          "title": "Kerehaklu Estate - Blossom Culture",
+          "url": "https://bluetokaicoffee.com/products/kerehaklu-estate-blossom-culture",
+          "note": "1 image"
+        }
+      ],
+      "recommendation": "Add a second product image — single-image PDPs read as unfinished and convert worse than pages with multiple angles.",
+      "evidence": "products.json `images[]` length per product"
+    },
+    {
+      "stage": "pdp",
+      "check": "short-description",
+      "title": "Product pages with a short description",
+      "severity": "high",
+      "count": 65,
+      "denominator": 190,
+      "examples": [
+        {
+          "title": "Drop Trial Pack",
+          "url": "https://bluetokaicoffee.com/products/drop-trial-pack",
+          "note": "0 characters"
+        },
+        {
+          "title": "Kolli Berri Estate Subscription",
+          "url": "https://bluetokaicoffee.com/products/kolli-berri-estate-subscription",
+          "note": "0 characters"
+        },
+        {
+          "title": "Kalledevarapura Estate - Pulp Sun Dried Subscription",
+          "url": "https://bluetokaicoffee.com/products/kalledevarapura-estate-pulp-sun-dried-subscription-1",
+          "note": "0 characters"
+        },
+        {
+          "title": "Comfort Combo",
+          "url": "https://bluetokaicoffee.com/products/comfort-combo",
+          "note": "160 characters"
+        },
+        {
+          "title": "Sampigehoney Estate Subscription",
+          "url": "https://bluetokaicoffee.com/products/sampigehoney-estate-subscription",
+          "note": "0 characters"
+        }
+      ],
+      "recommendation": "Expand the description past a couple of sentences — a description under 200 characters gives a shopper nothing to justify the price or answer basic questions.",
+      "evidence": "products.json `body_html` stripped to text, length in characters"
+    },
+    {
+      "stage": "pdp",
+      "check": "colour-variants-without-image",
+      "title": "Colour variants missing their own image",
+      "severity": "high",
+      "count": 2,
+      "denominator": 3,
+      "examples": [
+        {
+          "title": "COFFEE T-SHIRT Yellow (Pour over)",
+          "url": "https://bluetokaicoffee.com/products/pourover-printed-coffee-tshirt",
+          "note": "5 of 5 variants missing their own image"
+        },
+        {
+          "title": "COFFEE T-SHIRT Blue (Mokapot)",
+          "url": "https://bluetokaicoffee.com/products/mokapot-printed-blue-coffee-tshirt",
+          "note": "5 of 5 variants missing their own image"
+        }
+      ],
+      "recommendation": "Add a dedicated image for every colour variant — a shopper choosing colour from a swatch with no matching photo is guessing, not deciding.",
+      "evidence": "products.json option named Colour/Color; variant `featured_image` presence (`hasOwnImage`)"
+    },
+    {
+      "stage": "variant",
+      "check": "core-sizes-sold-out",
+      "title": "Core pack sizes sold out",
+      "severity": "medium",
+      "count": 33,
+      "denominator": 144,
+      "examples": [
+        {
+          "title": "Baarbara Estate - Whiskey Barrel Aged",
+          "url": "https://bluetokaicoffee.com/products/baarbara-estate-whiskey-barrel",
+          "note": "core sizes 250g sold out"
+        },
+        {
+          "title": "Excelsa by Mooleh Manay Estate",
+          "url": "https://bluetokaicoffee.com/products/excelsa-by-mooleh-manay-estate",
+          "note": "core sizes 100g sold out"
+        },
+        {
+          "title": "Riverdale Estate - Mosto",
+          "url": "https://bluetokaicoffee.com/products/riverdale-estate-mosto",
+          "note": "core sizes 200g sold out"
+        },
+        {
+          "title": "Raxidi Lobo Estate - Pichia Yeast",
+          "url": "https://bluetokaicoffee.com/products/raxidi-lobo-estate-pichia-yeast",
+          "note": "core sizes 200g sold out"
+        },
+        {
+          "title": "Kerehaklu Estate - Blossom Culture",
+          "url": "https://bluetokaicoffee.com/products/kerehaklu-estate-blossom-culture",
+          "note": "core sizes 200g sold out"
+        }
+      ],
+      "recommendation": "Prioritise restocking the middle sizes first — the smallest and largest sizes selling through last is normal; the middle going out isn't.",
+      "evidence": "products.json size option values, ordered; middle 50% checked for sold-out"
+    },
+    {
+      "stage": "intent-capture",
+      "check": "sold-out-without-capture",
+      "title": "Sold-out PDPs with no back-in-stock capture",
+      "severity": "none",
+      "count": 0,
+      "denominator": 19,
+      "examples": [],
+      "recommendation": "No action needed — sold-out PDPs with no back-in-stock capture found no issues on this run.",
+      "evidence": "PDP HTML sampled for highest-leakage sold-out products; searched for swym/back in stock/notify me/restock/klaviyo-bis/bis markers"
+    },
+    {
+      "stage": "trust",
+      "check": "policies",
+      "title": "Shipping / refund policy verification",
+      "severity": "low",
+      "count": 2,
+      "denominator": 2,
+      "examples": [],
+      "recommendation": "This store's robots.txt disallows /policies/*, so a compliant scanner — and any AI shopping agent or price-comparison tool that honours robots.txt — can't verify your shipping/refund terms programmatically. Consider allowing those two specific paths if you want that trust signal visible to automated buyers.",
+      "evidence": "robots.txt disallows /policies/* (and /*/policies/*) for User-agent: *, so the shipping/refund policy pages were not fetched (shipping policy not checked (robots.txt disallows); refund policy not checked (robots.txt disallows)); linkedFromHome=false"
+    }
+  ],
+  "methodology": {
+    "weights": {
+      "inMerch": 0.35,
+      "position": 0.25,
+      "breadth": 0.15,
+      "recency": 0.15,
+      "discounted": 0.1,
+      "velocity": 0.2
+    },
+    "limits": [
+      "scores are indices, not currency: public storefront data carries no order-volume or revenue signal",
+      "collection positions unavailable for 3/225 collections (robots.txt)",
+      "shipping and refund policies not checked (robots.txt disallows /policies/ for *)",
+      "A1: public storefront JSON reflects live availability; can lag minutes behind actual stock",
+      "A2: collection order approximates merchandising intent; bestseller-style handles approximate demand",
+      "A3: a sold-out variant on a merchandised product is intent lost; we cannot see how much",
+      "A4: detection of back-in-stock capture by HTML markers is approximate (themes vary)",
+      "A5: assumes the reviewer runs on macOS/Linux with Node >=20"
+    ]
+  }
+}
