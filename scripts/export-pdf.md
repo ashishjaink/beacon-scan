@@ -13,23 +13,23 @@ brew install pandoc          # macOS
 # or: apt-get install pandoc  # Linux
 ```
 
-A PDF engine is also required — pandoc doesn't ship one. Easiest is `wkhtmltopdf` (no LaTeX install needed):
+A PDF engine is also required — pandoc doesn't ship one. Use `weasyprint` (verified working 2026-09-23; the once-recommended `wkhtmltopdf` Homebrew cask has since been removed upstream — don't chase it):
 
 ```bash
-brew install wkhtmltopdf
+brew install weasyprint
 ```
 
 Then, from the repo root, after `out/EXAMPLE/` and `docs/img/report.png` exist (post-Lane I / Ashish's real run):
 
 ```bash
 pandoc README.md docs/part2-architecture.md docs/part2-defensibility.md docs/part3-discovery.md \
-  --pdf-engine=wkhtmltopdf \
+  --pdf-engine=weasyprint \
   --resource-path=.:docs:docs/img \
   --metadata title="Beacon Friction Scanner — Ashish Jain Kothari" \
   -o Beacon-Submission-Ashish.pdf
 ```
 
-If you'd rather use a LaTeX engine (`--pdf-engine=xelatex` after `brew install --cask mactex-no-gui` or similar), swap the engine flag — the rest of the command is unchanged. `--resource-path` is what lets the `docs/img/report.png` reference in `README.md` resolve correctly when the source files sit in different directories.
+If you'd rather use a LaTeX engine (`--pdf-engine=xelatex` after `brew install --cask mactex-no-gui` or similar), swap the engine flag — the rest of the command is unchanged. `--resource-path` is what lets the `docs/img/report.png` reference in `README.md` resolve correctly when the source files sit in different directories. Expect a few harmless `WARNING: Ignored ... unknown property` lines from weasyprint on modern CSS it doesn't support (e.g. `text-rendering: optimizeLegibility`) — cosmetic only, the PDF still renders correctly.
 
 Before exporting, either remove the `<!-- DRAFT: Ashish to edit voice -->` comment from the top of each essay (it renders as nothing in the PDF either way — HTML comments are stripped by pandoc — but removing it once the voice pass is done is the actual sign-off) or leave it if the PDF is still a draft round.
 

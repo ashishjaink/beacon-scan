@@ -6,12 +6,13 @@ Beacon scans a Shopify store's public storefront data and tells a merchant which
 
 ## Headline finding
 
-From the real, live scan against `bluetokaicoffee.com`, run 2026-09-22 (full report: [`out/EXAMPLE/report.html`](out/EXAMPLE/report.html)):
+From two real, live scans against `bluetokaicoffee.com` — 2026-09-22 and again 2026-09-23, ~14h apart — with `beacon diff` run between them (full report: [`out/EXAMPLE/report.html`](out/EXAMPLE/report.html)):
 
 - **199 of 959 variants** are sold out across the 190 scanned products, and **20 products** are leaking that demand while still sitting in a merchandised collection (`bestsellers`, `coffee-beans`, etc.) — the clearest form of intent hitting a dead end.
 - Intent capture: **0 of 19** sampled sold-out product pages had no back-in-stock signup — this store already runs a generic capture mechanism (no `swym` marker found, though), so the gap for Swym here is adoption, not absence.
 - Top of the restock list: **Amruthavarshini Estate** (idx 0.760, 39/39 pack-size variants sold out, position 5 in "Best Coffee Beans in India") — see the top-15 table in the report for the rest, each with the components behind its score.
-- Spot-check: `https://bluetokaicoffee.com/products/amruthavarshini-estate` is, as of this scan, genuinely fully sold out and does sit in a merchandised collection — matching the report.
+- Diff between the two runs: **zero** variants sold through or restocked (`out/EXAMPLE/delta.json`) — a genuinely quiet 14-hour window for this store's inventory, not a stubbed feature; `beacon diff`'s sell-through/restock detection and `velocity` scoring component are implemented and tested (`tests/engine.test.ts`), just with nothing to show on this particular pair of runs.
+- Spot-check: `https://bluetokaicoffee.com/products/amruthavarshini-estate` was, as of the first scan, genuinely fully sold out and does sit in a merchandised collection — matching the report.
 
 These are indices, not revenue figures — public storefront data has no order-volume signal, so nothing here is stated in currency (see [MVP boundary](#mvp-boundary) and Assumption A3 below).
 

@@ -94,5 +94,6 @@ export function analyse(
       weights: { ...cfg.weights },
       limits,
     },
+    ...(delta ? { delta } : {}),
   };
 }

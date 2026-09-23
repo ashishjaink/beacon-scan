@@ -3,8 +3,8 @@
   "store": {
     "host": "bluetokaicoffee.com"
   },
-  "generatedAt": "2026-09-22T12:50:49.617Z",
-  "snapshotFetchedAt": "2026-09-22T12:50:46.757Z",
+  "generatedAt": "2026-09-23T03:57:17.729Z",
+  "snapshotFetchedAt": "2026-09-23T02:10:14.955Z",
   "headline": {
     "productsScanned": 190,
     "variantsSoldOut": 199,
@@ -1691,13 +1691,20 @@
     },
     "limits": [
       "scores are indices, not currency: public storefront data carries no order-volume or revenue signal",
-      "collection positions unavailable for 3/225 collections (robots.txt)",
-      "shipping and refund policies not checked (robots.txt disallows /policies/ for *)",
+      "trust/policies check could not verify one or both policy pages: robots.txt disallows /policies/* for bots on this store",
       "A1: public storefront JSON reflects live availability; can lag minutes behind actual stock",
       "A2: collection order approximates merchandising intent; bestseller-style handles approximate demand",
       "A3: a sold-out variant on a merchandised product is intent lost; we cannot see how much",
       "A4: detection of back-in-stock capture by HTML markers is approximate (themes vary)",
       "A5: assumes the reviewer runs on macOS/Linux with Node >=20"
     ]
+  },
+  "delta": {
+    "fromFetchedAt": "2026-09-22T12:50:46.757Z",
+    "toFetchedAt": "2026-09-23T02:10:14.955Z",
+    "soldThrough": [],
+    "restocked": [],
+    "newProducts": [],
+    "removedProducts": []
   }
 }
