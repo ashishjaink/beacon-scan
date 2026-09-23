@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Reads a Shopify store's public storefront JSON and reports a Restock Priority / Demand Leakage insight plus a five-stage shopper-journey friction scorecard.",
   "type": "module",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "bin": {
     "beacon": "dist/cli.js"
   },

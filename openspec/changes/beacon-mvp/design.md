@@ -5,7 +5,7 @@ This file is the contract between parallel lanes. Lane 0 commits `src/types.ts` 
 ## 1. Repo layout
 ```
 beacon-scan/
-  package.json  tsconfig.json  vitest.config.ts  .gitignore  LICENSE (MIT)
+  package.json  tsconfig.json  vitest.config.ts  .gitignore  LICENSE (evaluation-only, see D-14)
   beacon.config.json              # weights + regexes + limits (§5)
   src/
     index.ts                      # §10 public library API (the SDK seam)
