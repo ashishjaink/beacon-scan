@@ -43,11 +43,14 @@ console.log(findings.restock[0]); // top restock priority row
 |---|---|
 | Example report (offline fixture run — see note above) | [`out/EXAMPLE/report.html`](out/EXAMPLE/report.html) |
 | Part 2 — architecture (NL query at 50K-store scale) | [`docs/part2-architecture.md`](docs/part2-architecture.md) |
+| ↳ *"Ask Beacon" — a working sketch of that architecture* | *[live demo](https://claude.ai/artifact/BntJhGhT14ramgF2DP1YFu) — not part of the submitted MVP, see note below* |
 | Part 2 — defensibility (standalone product or Shopify feature) | [`docs/part2-defensibility.md`](docs/part2-defensibility.md) |
 | Part 3 — discovery and prioritisation framework | [`docs/part3-discovery.md`](docs/part3-discovery.md) |
 | AI workflow (how this was built, with Claude Code) | [`docs/ai-workflow/README.md`](docs/ai-workflow/README.md) |
 | Loom walkthrough (≤3 min) | *not yet recorded — see `docs/loom-shot-list.md`* |
 | PDF mirror of this write-up | *not yet generated — see [`scripts/export-pdf.md`](scripts/export-pdf.md)* |
+
+*On "Ask Beacon": it's a keyword-routed, zero-LLM prototype of the question → typed query → deterministic engine → answer composer pattern `part2-architecture.md` describes, reading the real `findings.json` from this run. It's deliberately **outside** the submitted repo, not a quiet exception to N1/N2 below — the MVP itself stays exactly as bounded as the PRD says.*
 
 ## MVP boundary
 
